@@ -36,8 +36,9 @@ a:hover{
 	background-color: #43af68;
 	border-radius: 25px;
 	color: #fff;
-	padding: 8px 18px;
+	padding: 13px 34px;
 	font-size: 13px;
+	line-height: 1.1;
 	display: inline-block;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
@@ -76,11 +77,11 @@ a:hover{
 }
 /*Header start*/
 header{
-	padding: 12px 0 14px 0;
+	padding: 10px 0;
 }
 header .navbar>.container .navbar-brand, 
 header .navbar>.container-fluid .navbar-brand{
-	margin-left: 0;
+	margin:5px 0 0 0;
 }
 header nav.navbar-default{
 	border:none;
@@ -88,14 +89,22 @@ header nav.navbar-default{
 	min-height: auto;
 	margin-bottom: 0;
 }
+header .navbar-default .navbar-collapse, 
+header .navbar-default .navbar-form{
+	background-color: #fff;
+	border-color: #fff;
+}
 header .first-nav{
-	margin-left: 100px;
+	margin:5px 0 0 100px;
 }
 header .navbar-nav li{
 	margin:7px 54px 0 0;
 }
 header .navbar-nav li:last-child{
 	margin:7px 0px 0 0;
+}
+header .nav.navbar-nav.navbar-right li{
+	margin-top:12px;
 }
 header .nav.navbar-nav.navbar-right li:last-child{
 	margin-top: 0px;
@@ -205,6 +214,9 @@ header .navbar-toggle{
 	color: #fff;
 	margin-bottom: 5px;
 }
+.banner .roti-lovers span svg{
+	margin-right: 5px;
+}
 .banner .roti-lovers span:last-child{
 	margin-bottom: 0;
 }
@@ -214,11 +226,26 @@ header .navbar-toggle{
 /*banner-ends*/
 /*creative-main-box-start*/
 .creative-main-box{
-	margin:109px 0 0 0;
-
+	margin:52px 0 0 0;
 }
 .creative-main-box .container{
 	border-bottom: 1px solid #e8e8e8;
+}
+.creative-main-box .creative-box{
+	position: relative;
+}
+.creative-main-box .creative-box:after{
+	border-right: 1px solid #eaeaea;
+    height: 100px;
+    position: absolute;
+    display: block;
+    right: -15px;
+    top: 127px;
+    margin: auto;
+    content: "";
+}
+.creative-main-box [class*=col]:last-child .creative-box:after{
+	display: none;
 }
 .creative-main-box .creative-box .icons{
 	text-align: center;
@@ -274,6 +301,7 @@ header .navbar-toggle{
 }
 .rotimatic-paid .creative-caption p{
 	margin-bottom: 0;
+	font-size: 15px;	
 }
 
 /*rotimatic-paid-ends*/
@@ -289,7 +317,7 @@ header .navbar-toggle{
 }
 .try-it-now button{
 	margin: 45px 0 0 0;
-	padding: 8px 38px;
+	padding: 8px 48px;
 }
 /*try-it-now-img-end*/
 /*taste-endless-main-box-start*/
@@ -300,7 +328,7 @@ header .navbar-toggle{
 .taste-endless-main-box .roti-slider{
 	max-width: 1000px;
 	width: 100%;
-	margin:67px auto 0;
+	margin:33px auto 0;
 	position: relative;
 }
 .taste-endless-main-box .roti-slider .slider-img{
@@ -358,6 +386,9 @@ header .navbar-toggle{
 .taste-endless-main-box .roti-unlimited p{
 	color:#6b6b6b; 
 	margin:0;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 200;
 }
 .taste-endless-main-box .roti-unlimited button{
 	margin:30px 0 0 0;
@@ -976,6 +1007,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.creative-main-box .creative-box{
 		border-bottom: 1px solid #e8e8e8;
 		margin-bottom: 30px;
+	}
+	.creative-main-box .creative-box:after{
+		display: none;
 	}
 	.creative-main-box .creative-caption{
 		padding-bottom: 30px;
