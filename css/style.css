@@ -202,7 +202,7 @@ header .navbar-toggle{
 	background-color: #4975ae;
 	border:2px solid #6c8fbb;
 	padding: 10px 14px;
-	max-width: 215px;
+	max-width: 230px;
 	width: 100%;
 	position: absolute;
 	right: 24px;
@@ -833,10 +833,10 @@ footer .footer-social-icons ul li a{
 	line-height: 36px;
 	display: inline-block;
 	color: #fff;
-}
-footer .footer-social-icons ul li a:hover{
+}*/
+/*footer .footer-social-icons ul li a svg:hover{
 	border-color:#ff7c42;
-	color: #ff7c42;
+	color: #ff7c42 !important;
 }*/
 footer .copy-right-box{
 	padding: 23px 0 74px 0;     
