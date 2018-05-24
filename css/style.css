@@ -622,7 +622,7 @@ header .navbar-toggle{
 	color: #707070;
 }
 .take-our-word-inner-box .review-box{
-	max-width: 500px;
+	max-width: 475px;
 	width: 100%;
 	margin:80px auto;
 }
@@ -658,14 +658,16 @@ header .navbar-toggle{
 	margin:19px 0 10px;
 }
 .take-our-word-inner-box .review-box .review-content p{
-	font-size: 18px;
+	font-size: 16px;
 	color: #6C6C6C;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
 }
 .take-our-word-inner-box .review-box-main .slick-slide{
-	margin:0 50px;
+	margin:0 25px;
+	max-width: 475px !important;
+	width: 100% !important;
 }
 /*take-our-word-box end*/
 /*delighted-customers-box-start*/
