@@ -198,16 +198,18 @@ header .navbar-toggle{
 	font-weight: 200;
 	color: #222;
 }
+.banner.home-banner .roti-lovers{
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+}
 .banner .roti-lovers{
 	background-color: #4975ae;
+	border-radius: 5px;
 	border:2px solid #6c8fbb;
 	padding: 10px 14px;
 	max-width: 230px;
 	width: 100%;
-	position: absolute;
-	right: 24px;
-	bottom: 24px;
-	border-radius: 5px;
 }
 .banner .roti-lovers span{
 	display: block;
@@ -867,8 +869,39 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #ff7c42;
 }
 /*footer ends*/
-
-
+/*Technology-page-starts*/
+.banner.technology-banner .banner-caption{
+	position: static;
+	margin-top: 156px;
+}
+.banner.technology-banner .roti-lovers{
+	position: absolute;
+	right:50px;
+	bottom:50px;
+}
+.banner.technology-banner img{
+	max-width: 600px;
+	width: 100%;
+	margin:135px auto 0;
+	text-align: center;
+	display: block;
+}
+.never-stop-bg{
+	position: relative;
+	height: 570px;
+}
+.never-stop-bg:before{
+	background-image: url(../images/c1ae04a843b5a8110505c49b6b018b3503cfc67d.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	content: "";
+	width: 100%;
+	height: 570px;
+}
+/*Technology-page-ends*/
 /*Responsive css start*/
 @media screen and (max-width: 991px){
 	header .first-nav{
@@ -1183,7 +1216,6 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	footer .copy-right-box span{
 		display: block;
-
 	}
 }
 /*Responsive css end*/
