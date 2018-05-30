@@ -84,6 +84,7 @@ header .navbar>.container-fluid .navbar-brand{
 	margin:5px 0 0 0;
 }
 header nav.navbar-default{
+	background-color: #fff;
 	border:none;
 	border-radius:0;
 	min-height: auto;
@@ -208,8 +209,9 @@ header .navbar-toggle{
 	border-radius: 5px;
 	border:2px solid #6c8fbb;
 	padding: 10px 14px;
-	max-width: 230px;
-	width: 100%;
+	/*max-width: 230px;*/
+	/*width: 100%;*/
+	display: block;
 }
 .banner .roti-lovers span{
 	display: block;
@@ -786,37 +788,29 @@ footer .updated-rotimatic .form-group .form-control{
 	border:1px solid #fff;
 	color: #fff;
 	height: 50px;
+	display: inline-block;
+	width: 80%;
 }
-footer .updated-rotimatic .form-group input.form-control::placeholder{
-	color: #fff;
-}
-footer .updated-rotimatic .form-group -ms-input.form-control-placeholder{
-	color: #fff;
-}
-footer .updated-rotimatic .form-group -webkit-input.form-control-placeholder{
-	color: #fff;
-}
-footer .updated-rotimatic .form-group -moz-input.form-control-placeholder{
-	color: #fff;
-}
+footer .updated-rotimatic .form-group input.form-control::placeholder,
+footer .updated-rotimatic .form-group -ms-input.form-control-placeholder,
+footer .updated-rotimatic .form-group -webkit-input.form-control-placeholder,
+footer .updated-rotimatic .form-group -moz-input.form-control-placeholder,
 footer .updated-rotimatic .form-group -o-input.form-control-placeholder{
 	color: #fff;
 }
 footer .updated-rotimatic .form-group button.updated-btn{
-	position: absolute;
-    top: 30px;
-    right: 0;
     background-color: transparent;
-    border-width: 0 0 0 1px;
+    border-width: 1px 1px 1px 0;
     border-style: solid;
     border-color: #fff;
-    /*padding: 13px 20px;*/
+    display: inline-block;
     width: 50px;
-    height: 48px;
+    height: 50px;
     color: #fff;
+    margin-left: -3px;
 }
 footer .updated-rotimatic .form-group button.updated-btn svg{
-	margin: 7px 0 0 0;
+	margin: 2px 0 0 0;
 }
 footer .footer-social-icons{
 	margin:29px 0 93px 0;
@@ -877,7 +871,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .banner.technology-banner .roti-lovers{
 	position: absolute;
 	right:50px;
-	bottom:50px;
+	bottom:120px;
 }
 .banner.technology-banner img{
 	max-width: 600px;
@@ -886,20 +880,131 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	text-align: center;
 	display: block;
 }
-.never-stop-bg{
+.never-stop-learning{
+	margin-top: -70px;
 	position: relative;
-	height: 570px;
+	background-color: #fff;
+	padding: 135px 0 0 0;
 }
-.never-stop-bg:before{
-	background-image: url(../images/c1ae04a843b5a8110505c49b6b018b3503cfc67d.png);
-	background-size: cover;
+.never-stop-bg img{
+	position: relative;
+	right: -53px;
+	top: -30px;
+}
+.never-stop-learning .never-stop-learing-desc{
+	margin-top: 80px;
+	max-width: 400px;
+}
+.never-stop-learning .never-stop-learing-desc h2{
+	margin-top: 0;
+	font-size:40px;
+	font-weight: lighter;
+	margin-bottom: 23px;
+	color: #222;
+}
+.never-stop-learning .never-stop-learing-desc p{
+	font-size: 16px;
+	color:#6C6C6C ;
+	line-height: 27px;
+	margin-bottom: 23px;
+	font-weight: lighter;
+	letter-spacing: 0.2;
+}
+.rotimatic-mirror{
+	background-image: url(../images/bd7fb64f1d22f85af90be95592278f272d0fa876.png);
 	background-repeat: no-repeat;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	content: "";
+	background-size: cover;
+	height: 500px;
+}
+.rotimatic-mirror .rotimatic-mirror-desc{
+	max-width: 740px;
 	width: 100%;
-	height: 570px;
+	margin: 80px auto 0;
+}
+.rotimatic-mirror .rotimatic-mirror-desc p{
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	font-weight: lighter;
+	color: #6C6C6C;
+}
+.robot-with-human-touch{
+	padding: 100px 0 0 0;
+}
+.robot-with-human-touch .section-title{
+	margin-bottom: 60px;
+}
+.robot-with-human-touch .human-touch-inner-box{
+	padding: 50px 0 0 0;
+}
+.robot-with-human-touch .houch-box-inner{
+	padding-top: 260px;
+	padding-bottom: 60px;
+}
+.robot-with-human-touch .human-touch-inner-box h3{
+	font-size: 40px;
+	letter-spacing: 0.3px;
+	color: #222;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+.robot-with-human-touch .human-touch-inner-box p{
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	line-height: 27px;
+	color: #6C6C6C;
+	font-weight: lighter;
+}
+.flat-out-main-box{
+	background-color: #4A76B0;
+	padding: 90px 0;
+	color:#fff;
+}
+.flat-out-main-box .section-title h2{
+	color:#fff;
+}
+.flat-out-main-box .flat-out-inner-box{
+	max-width: 900px;
+	width: 100%;
+	margin: 50px auto 0; 
+	text-align: center;
+}
+.flat-out-main-box .flat-out-inner-box p{
+	text-align: center;
+	font-size: 21px;
+	letter-spacing: 0.3px;
+	line-height: 31px;
+}
+.flat-out-main-box .flat-out-inner-box img{
+	margin: 50px 0 0 0;
+	max-width: 500px;
+	width: 100%; 
+}
+.design-to-delight-main-box{
+	padding: 91px 0;
+}
+.design-to-delight-main-box .design-delight-boxes{
+	margin:55px 0 0 0;
+}
+.design-delight-boxes .design-delight-box .delight-box-left{
+	margin-top: 120px;
+	max-width: 350px;
+	width: 100%;
+}
+.design-delight-boxes .design-delight-box .delight-box-left .delight-icons{
+	margin-top: 87px;
+}
+.design-delight-boxes .design-delight-box .delight-box-left h4{
+	color: #ff7f44;
+	font-size: 32px;
+	letter-spacing: 0.3px;
+}
+.design-delight-boxes .design-delight-box .delight-box-left p{
+	font-size: 16px;
+	color: #6C6C6C;
+	letter-spacing: 0.2px;
+	line-height: 27px;
+	font-weight: lighter;
 }
 /*Technology-page-ends*/
 /*Responsive css start*/
@@ -966,7 +1071,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		display: none;
 	}
 	header .navbar-collapse{
-		background-color: #4975ae;
+		background-color: #4975ae !important;
 		border-color: transparent;
 	}
 	header .navbar-collapse ul li{
