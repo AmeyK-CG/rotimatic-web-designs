@@ -10,6 +10,11 @@ body{
 	font-size: 13px;
 	/*overflow-x: hidden !important;*/
 }
+.wrapper{
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
 /*.container{
 	max-width: 1200px;
 	width: 100%;
@@ -74,6 +79,11 @@ a:hover{
 	font-weight: 200;
 	color: #222222;
 	font-size: 40px;
+}
+.display-direction{
+	display: flex; 
+	flex-direction: row; 
+	align-items: center;
 }
 /*Header start*/
 header{
@@ -816,7 +826,7 @@ footer .updated-rotimatic .form-group .form-control{
 	color: #fff;
 	height: 50px;
 	display: inline-block;
-	width: 80%;
+	width: 75%;
 }
 footer .updated-rotimatic .form-group input.form-control::placeholder,
 footer .updated-rotimatic .form-group -ms-input.form-control-placeholder,
@@ -897,9 +907,13 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .symphony-speed-main-box{
 	margin-top: -75px;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	position: relative;
 	padding: 90px 0 0 0;
+	background-image: url(../images/040f68ae5722881adb9f837c369e98a7d983e0de.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 .symphony-speed-main-box .section-title{
 	margin-bottom: 50px;
@@ -933,6 +947,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 200;
 	color: #ff7f44;
 }
+/*.symphony-speed-main-box .symphony-img{
+	background-image: url(../images/images/040f68ae5722881adb9f837c369e98a7d983e0de.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
 .never-stop-learning{
 	padding: 135px 0 0 0;
 }
@@ -957,8 +977,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color:#6C6C6C ;
 	line-height: 27px;
 	margin-bottom: 23px;
-	font-weight: lighter;
-	letter-spacing: 0.2;
+	font-weight: 300;
+	letter-spacing: 0.2px;
 }
 .rotimatic-mirror{
 	/*background-image: url(../images/bd7fb64f1d22f85af90be95592278f272d0fa876.png);*/
@@ -978,17 +998,21 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	text-align: center;
 	letter-spacing: 0.5px;
 	color: #222;
-	margin-bottom: 42px;
+	margin-bottom: 32px;
+	margin-top: 0;
 }
 .rotimatic-mirror .rotimatic-mirror-desc p{
 	font-size: 18px;
 	line-height: 28px;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 300;
 	color: #6C6C6C;
 }
 .robot-with-human-touch{
 	padding: 100px 0 0 0;
+}
+.robot-with-human-touch .display-direction{
+	align-items: end;
 }
 .robot-with-human-touch .section-title{
 	margin-bottom: 60px;
@@ -1010,7 +1034,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: 0.2px;
 	line-height: 27px;
 	color: #6C6C6C;
-	font-weight: lighter;
+	font-weight: 300;
 }
 .flat-out-main-box{
 	padding: 90px 0;
@@ -1018,6 +1042,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .flat-out-main-box .section-title h2{
 	color:#222;
+}
+.flat-out-main-box .section-title h2 br{ 
+	display: none;
 }
 .flat-out-main-box .flat-out-inner-box{
 	max-width: 900px;
@@ -1030,6 +1057,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 21px;
 	letter-spacing: 0.3px;
 	line-height: 31px;
+	font-weight: 300;
 }
 /*.flat-out-main-box .flat-out-inner-box img{
 	margin: 50px 0 0 0;
@@ -1046,7 +1074,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	margin-top: 120px;
 	max-width: 350px;
 	width: 100%;
-	margin-left: 150px;
+	margin-left: 100px;
 }
 .design-delight-boxes .design-delight-box .delight-box-left .delight-icons{
 	margin-top: 87px;
@@ -1061,7 +1089,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #6C6C6C;
 	letter-spacing: 0.2px;
 	line-height: 27px;
-	font-weight: lighter;
+	font-weight: 300;
 }
 .design-to-delight-main-box .design-delight-boxes button{
 	background-color: transparent;
@@ -1098,7 +1126,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .faq-inner-box{
 	max-width: 750px;
 	width: 100%;
-	margin:70px auto 0;
+	margin:70px auto;
 }
 .faq-inner-box .panel{
 	border-width: 0 0 1px 0;
@@ -1113,6 +1141,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .faq-inner-box .panel-group .panel-heading{
 	border-bottom: 1px solid #ddd;
 	box-shadow: none;
+	padding-right: 0;
+	vertical-align: middle;
 }
 .faq-inner-box .panel-heading{
 	padding: 15px;
@@ -1127,6 +1157,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a .icons{
 	float: right;
+	height: 20px;
+	vertical-align: middle;
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a.collapsed .icons .minus{
 	display: none;
@@ -1143,9 +1175,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a{
 	color: #FF7D42;
 	font-size: 22px;
-	line-height: 22px;
-	letter-spacing: 0.3px;
-	font-weight: lighter;
+	line-height: 30px;
+	letter-spacing: -0.5px;
+	font-weight: 200;
 	text-decoration: none;
 }
 .faq-inner-box .panel-group .panel.panel-default .panel-body{
@@ -1157,12 +1189,28 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Technology-page-ends*/
 /*Responsive css start*/
+@media screen and (max-width: 1169px){
+	.banner.technology-banner .roti-lovers{
+		right: -15px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.banner.technology-banner .roti-lovers {
+	    right: -30px;
+	}
+	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
+		left: -75px;	
+	}
+}
 @media screen and (max-width: 991px){
 	header .first-nav{
 		margin-left: 30px;
 	}
 	header .navbar-nav li{
-		margin-right: 30px;
+		margin-right: 20px;
+	}
+	.banner.technology-banner .roti-lovers{
+		display: none;
 	}
 	.light-on-your-body .how-much-save-box{
 		padding: 25px;
@@ -1180,8 +1228,13 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	footer .updated-rotimatic .form-group button.updated-btn{
 		top:27px;
 	}
+
 }
 @media screen and (max-width: 767px){
+	.display-direction{
+		flex-flow: column; 
+		flex-direction: column-reverse;
+	}
 	header{
 		padding-bottom: 0;
 	}header .navbar-toggle .open-menu{
@@ -1485,6 +1538,118 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	footer .copy-right-box span{
 		display: block;
 	}
+	/*Technoloy-responsive-start*/
+	.banner.technology-banner .banner-caption{
+		margin-top: 50px;
+	}
+	.banner.technology-banner img{
+		margin: 86px auto;
+	}
+	.symphony-speed-main-box .section-title{
+		margin-bottom: 30px;
+	}
+	.symphony-speed-main-box .symphony-features-box ul li {
+	    padding: 25px 10px;
+	}
+	.never-stop-learning{
+		padding: 58px 0 0 0;
+	}
+	.never-stop-learning .never-stop-learing-desc{
+		margin-top: 0;
+	}
+	.never-stop-learning .never-stop-learing-desc h2{
+		font-size: 28px;
+		text-align: center;
+		line-height: 1.5;
+	}
+	.never-stop-learning .never-stop-learing-desc p{
+		font-size: 18px;
+		text-align: center;
+	}
+	.never-stop-bg img{
+		right: 0;
+		top: 0;
+	}
+	.rotimatic-mirror{
+		background-image: none;
+		height: auto;
+	}
+	.rotimatic-mirror .rotimatic-mirror-desc{
+		margin: 57px auto 40px;
+		max-width: 270px;
+	}
+	.rotimatic-mirror .rotimatic-mirror-desc h3{
+		font-size: 28px;
+		line-height: 1.5;	
+		margin-bottom: 28px;
+	}
+	.robot-with-human-touch{
+		padding: 58px 0 0 0;
+	}
+	.robot-with-human-touch .human-touch-inner-box{
+		padding: 0;
+		max-width: 275px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.robot-with-human-touch img{
+		margin-top: 15px;
+	}
+	.robot-with-human-touch .display-direction{
+		flex-flow: column; 
+		flex-direction: column-reverse;
+	}
+	.robot-with-human-touch .human-touch-inner-box h3{
+		margin-top: 0;
+		font-size: 27px;
+		text-align: center;
+	}
+	.robot-with-human-touch .human-touch-inner-box h3 br{
+		display: none;
+	}
+	.robot-with-human-touch .human-touch-inner-box p{
+		font-size: 18px;
+		text-align: center;
+	}
+	.flat-out-main-box .section-title h2 br{
+		display: block;
+	}
+
+	.flat-out-main-box .flat-out-inner-box{
+		margin: 20px auto 0;
+	}
+	.flat-out-inner-box img{
+		margin-top: 74px;
+	}
+	.design-to-delight-main-box{
+		padding: 0;
+	}
+	.design-delight-boxes .design-delight-box .delight-box-left{
+		margin:43px 0 0 0;
+		text-align: center;
+	}
+	.design-delight-boxes .design-delight-box .delight-box-right{
+		height: 200px;
+	}
+	.design-delight-boxes .design-delight-box .delight-box-right img{
+	    max-width: 190px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.design-to-delight-main-box .design-delight-boxes button{
+		top: 33%;
+		-ms-transform: translateY(-33%);
+	    -webkit-transform: translateY(-33%);
+	    -moz-transform: translateY(-33%);
+	    -o-transform: translateY(-33%);
+	}
+	.design-to-delight-main-box .design-delight-boxes button.slick-next{
+		right: -25px;
+	}
+	.design-delight-boxes .design-delight-box .delight-box-left .delight-icon{
+		margin: 52px 0 0 0;
+	}
+	/*Technoloy-responsive-ends*/
 }
 @media screen and (max-width: 479px){
 	.take-our-word-inner-box .review-box .reviewer .admin-pic{
