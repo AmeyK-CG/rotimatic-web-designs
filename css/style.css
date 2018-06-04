@@ -141,7 +141,7 @@ header .nav.navbar-nav .active a{
 }
 header .navbar-toggle{
 	float: left;
-	margin: 7px 20px 0 15px;
+	margin: 10px 20px 0 10px;
 	border:none;
 	padding: 0;
 }
@@ -910,7 +910,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	/*background-color: #fff;*/
 	position: relative;
 	padding: 90px 0 0 0;
-	background-image: url(../images/040f68ae5722881adb9f837c369e98a7d983e0de.png);
+	background-image: url(../images/symphony-speed-background-img.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1159,6 +1159,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	float: right;
 	height: 20px;
 	vertical-align: middle;
+	padding-left: 10px;
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a.collapsed .icons .minus{
 	display: none;
@@ -1594,6 +1595,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.robot-with-human-touch img{
 		margin-top: 15px;
+		text-align: center;
+		display: block;
+		margin:15px auto 0;
 	}
 	.robot-with-human-touch .display-direction{
 		flex-flow: column; 
@@ -1648,6 +1652,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.design-delight-boxes .design-delight-box .delight-box-left .delight-icon{
 		margin: 52px 0 0 0;
+	}
+	.faq-inner-box .panel.panel-default .panel-heading .panel-title a{
+		font-size: 18px;
 	}
 	/*Technoloy-responsive-ends*/
 }
