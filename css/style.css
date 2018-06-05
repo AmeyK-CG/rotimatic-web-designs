@@ -99,6 +99,7 @@ a:hover{
 	margin: 0 0 30px; 
 	width: 100%;
 }
+
 /*Header start*/
 header{
 	padding: 10px 0;
@@ -1371,7 +1372,137 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
     padding: 13px 60px;
 }
 /*Reviews-page-end*/
-/*Responsive css start*/
+/*Recipes-page-start*/
+.banner.recipes-banner{
+
+}
+.fresh-ingredient-main-box .fresh-ingrediants-masonry-box ul{
+	margin:45px 0 80px 0;
+	text-align: center;
+}
+.ingredient-main-box{
+	display: flex;
+	-moz-column-count: 2; 
+	-moz-column-gap: 15px; 
+	-webkit-column-count: 2;
+	-webkit-column-gap: 15px; 
+	column-count: 2; 
+	column-gap: 15px;
+}
+.ingredient-main-box .ingredient-left-box{
+	display: flex;
+}
+.ingredient-main-box .ingredient-right-box .right-top-box{
+	display: flex;
+	column-count: 2;
+}
+.ingredient-main-box .ingredient-right-box .right-bottom-box{
+	display: flex;
+	column-count: 2;
+}
+/*Recipes-page-end*/
+/*Individual-recipes-page-start*/
+.banner.individual-recipe-banner{
+	background-image: url('../images/b1e7a03355b66a88be7c673795f547d685a079de.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 726px;
+}
+.banner.individual-recipe-banner .banner-caption{
+	top:50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	bottom: 0;
+	left:0;
+	right: 0;
+}
+.banner.individual-recipe-banner .banner-caption .primary-btn{
+	margin-bottom: 15px;
+}
+.banner.individual-recipe-banner .banner-overlay{
+	background-color: rgba(0,0,0,0.45);	
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+.banner.individual-recipe-banner .banner-caption h1,
+.banner.individual-recipe-banner .banner-caption p{
+	color:#fff;
+}
+.recipe-preparation-process-main{
+	padding: 35px 0 0 0;
+}
+.recipe-preparation-process-main ul{
+	margin: 0;
+}
+.recipe-preparation-process-main ul.process-list li{
+	margin-right: 40px;
+}
+.recipe-preparation-process-main ul.process-list li:last-child{
+	margin-right: 0;
+}
+.recipe-preparation-process-main ul.process-list .media .media-body{
+	width: auto;
+}
+.recipe-preparation-process-main ul.process-list .media .media-body p{
+	margin-bottom: 0px;
+	color:#FF7D42;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 19px;
+}
+.recipe-preparation-process-main ul.process-list .media .media-body span{
+	font-size: 12px;
+	font-weight: 200;
+	color:#222;
+}
+.recipe-preparation-process-main .share-recipe{
+	text-align: center;
+}
+.recipe-preparation-process-main .share-recipe ul{
+	margin:0;
+}
+.recipe-preparation-process-main .share-recipe span{
+	display: block;
+	margin-bottom: 10px; 	
+}
+.recipe-preparation-process-main .preparation-process-desc{
+	margin-top: 150px;
+}
+.recipe-preparation-process-main .preparation-process-desc h4{
+	font-size: 30px;
+	font-weight: 200;
+	color: #222;
+	margin:0;
+}
+.recipe-preparation-process-main .preparation-process-desc .process-desc-inner-box table.table td{
+	border:none;
+}
+.recipe-preparation-process-main .preparation-process-desc .process-desc-inner-box table.table{
+	margin-top: 35px;
+}
+.recipe-preparation-process-main .preparation-process-desc .process-desc-inner-box table.table td.ingrd-qty{
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	color: #6C6C6C;
+}
+.recipe-preparation-process-main .preparation-process-desc .process-desc-inner-box table.table td.ingrd{
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	color: #222222;
+}
+/*Individual-recipes-page-end*/
+/******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
 	.banner.technology-banner .roti-lovers{
 		right: -15px;
