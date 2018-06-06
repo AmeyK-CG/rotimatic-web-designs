@@ -200,13 +200,11 @@ header .navbar-toggle{
 	line-height: 27px;
 }
 .banner.home-banner{
-	/*background-image: url(../images/c134af3534ba26da784acdce80a02f0b5844cf4f.png);*/
-	/*background-image: url(../images/homepage-banner.jpg);*/
 	background-image: url(../images/1f717e91195b34d7ab21cac06b4d6915d1a71ac8.png);
 	background-size: cover;
     background-repeat: no-repeat;
-    height: 734px;
-    background-position: center center;
+    height: 900px;
+    background-position:45% 10%;
 }
 .banner.home-banner .banner-overlay{
 	background-color: rgba(0,0,0,0.2);
@@ -222,7 +220,7 @@ header .navbar-toggle{
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 165px;
+	bottom: 200px;
 	text-align: center;
 	max-width: 600px;
 	width: 100%;
@@ -236,7 +234,7 @@ header .navbar-toggle{
 	margin:0 0 10px;
 	font-weight: 200;
 	font-size: 50px;
-	letter-spacing: 0.69px;
+	letter-spacing: -0.69px;
 }
 .banner .banner-caption p{
 	line-height:32px;
@@ -254,7 +252,7 @@ header .navbar-toggle{
 	background-color: #4975ae;
 	border-radius: 5px;
 	border:2px solid #6c8fbb;
-	padding: 10px 14px;
+	padding: 5px 15px;
 	/*max-width: 230px;*/
 	/*width: 100%;*/
 	display: block;
@@ -262,7 +260,9 @@ header .navbar-toggle{
 .banner .roti-lovers span{
 	display: block;
 	color: #fff;
-	margin-bottom: 5px;
+	font-size: 10px;
+	margin-bottom: 2px;
+	line-height: 10px;
 }
 .banner .roti-lovers span svg{
 	margin-right: 5px;
@@ -339,7 +339,7 @@ header .navbar-toggle{
 .rotimatic-paid .count{
 	display: table-cell;
 	vertical-align: middle;
-	padding-right: 35px;
+	padding-right: 15px;
 }
 .rotimatic-paid .count h2{
 	font-size: 70px;
@@ -360,13 +360,14 @@ header .navbar-toggle{
 	text-align: center;
 }
 .try-it-now-img img{
-	max-width: 500px;
+	/*max-width: 500px;*/
+	max-width: 750px;
 	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 .try-it-now button{
-	margin: 45px 0 0 0;
+	margin: 20px 0 0 0;
 	padding: 13px 55px;
 }
 /*try-it-now-img-end*/
@@ -422,11 +423,16 @@ header .navbar-toggle{
 }
 .taste-endless-main-box .roti-slider .slider-img h4{
 	color: #232323;
-	font-size: 26px;
+	/*font-size: 26px;*/
+	font-size: 36px;
+	margin: 0;
+	letter-spacing: 0.43px;
 }
 .taste-endless-main-box .roti-slider .slider-img span{
 	color: #fe7d47;
-	font-size: 14px;
+	/*font-size: 14px;*/
+	font-size: 16px;
+	line-height: 5px;
 }
 .taste-endless-main-box .roti-unlimited{
 	text-align: center;
@@ -435,8 +441,9 @@ header .navbar-toggle{
 .taste-endless-main-box .roti-unlimited p{
 	color:#6b6b6b; 
 	margin:0;
-	font-size: 16px;
-	letter-spacing: 1px;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.3px;
 	font-weight: 200;
 }
 .taste-endless-main-box .roti-unlimited button{
@@ -448,7 +455,8 @@ header .navbar-toggle{
 
 .taste-different-ways-box .taste-img{
 	position: relative;
-	height: 662px;
+	/*height: 662px;*/
+	height: 700px;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
@@ -462,23 +470,27 @@ header .navbar-toggle{
 }
 .taste-img.taste-img-one.openSlide{
 	background-size: cover;
-	height: 662px;
+	/*height: 662px;*/
+	height: 700px;
 	background-position: 37% 33%;
 }
 .taste-img.taste-img-two.openSlide{
 	/*background-position: 21% 49%;*/
-	height: 662px;
+	/*height: 662px;*/
+	height: 700px;
 	background-size: cover;
 }
 .taste-img.taste-img-three.openSlide{
 	/*background-position: 63% 27%;*/
-	height: 662px;
+	/*height: 662px;*/
+	height: 700px;
 	background-size: cover;
 }
 .taste-img.taste-img-four.openSlide{
 	/*background-position: 100% 0;*/
 	background-size: cover;
-	height: 662px;
+	/*height: 662px;*/
+	height: 700px;
 }
 .taste-different-ways-box .taste-img .test-caption-resposnive{
 	position: absolute;
@@ -500,6 +512,7 @@ header .navbar-toggle{
     margin: 0 auto;
     text-align: center;
     bottom: auto;
+    height: 492px;
 }
 .taste-different-ways-box .taste-img .test-caption-resposnive a.expand-plus{
 	display: inline-block;
@@ -512,6 +525,10 @@ header .navbar-toggle{
 }
 .taste-different-ways-box .taste-img .test-caption-resposnive.active a.expand-minius{
 	display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
 }
 .taste-different-ways-box .taste-img .test-caption-resposnive .test-desc{
 	display: none;
@@ -536,11 +553,12 @@ header .navbar-toggle{
 	display: none;
 }
 .taste-different-ways-box .taste-img .overlay{
-	background: rgb(0,0,0);
+	/*background: rgb(0,0,0);
 	background: -moz-linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,1) 100%);
 	background: -webkit-linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,1) 100%);
 	background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);*/
+	background-color: rgba(0,0,0,0.3);
 	height: 100%;
 	width: 100%;
 }
@@ -557,9 +575,9 @@ header .navbar-toggle{
     background-repeat: no-repeat;
 }
 .taste-different-ways-box .taste-img-three{
-	background-image: url(../images/e8df36a6e717564c0ddb3570bb84606eb92903e7.png);
+/*	background-image: url(../images/e8df36a6e717564c0ddb3570bb84606eb92903e7.png);*/
 	background-image: url(../images/10b881d76248fca4f17f685e9b348e8f5b151eee.png);
-    background-position:69% 60%;
+    background-position:69% 38%;
     background-repeat: no-repeat;
 }
 .taste-different-ways-box .taste-img-four{
@@ -911,17 +929,18 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .banner.technology-banner .roti-lovers{
 	position: absolute;
 	right:50px;
-	bottom:120px;
+	bottom:210px;
 }
 .banner.technology-banner img{
-	max-width: 600px;
+	/*max-width: 600px;*/
+	max-width: 1000px;
 	width: 100%;
-	margin:135px auto 0;
+	margin:25px auto 0;
 	text-align: center;
 	display: block;
 }
 .symphony-speed-main-box{
-	margin-top: -75px;
+	margin-top: -190px;
 	/*background-color: #fff;*/
 	position: relative;
 	padding: 90px 0 0 0;
@@ -962,13 +981,21 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 200;
 	color: #ff7f44;
 }
+.symphony-speed-main-box .symphony-img{
+	background-image: url(../images/symphony-of-speed.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 36%;
+	height: 411px;
+}
 .never-stop-learning{
 	padding: 135px 0 0 0;
 }
 .never-stop-bg img{
 	position: relative;
 	right: -53px;
-	top: -30px;
+	/*top: -30px;*/
+	top:0;
 }
 .never-stop-learning .never-stop-learing-desc{
 	margin-top: 80px;
@@ -994,7 +1021,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	background-image: url(../images/3f0cd50de4fb18052cd1a95b3b8f35b352d1ac6c.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 640px;
+	/*height: 640px;*/
+	height: 700px;
 }
 .rotimatic-mirror .rotimatic-mirror-desc{
 	max-width: 740px;
@@ -1011,7 +1039,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	margin-top: 0;
 }
 .rotimatic-mirror .rotimatic-mirror-desc p{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 28px;
 	text-align: center;
 	font-weight: 300;
@@ -1847,11 +1875,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		height: 200px;
 	}
 	.taste-different-ways-box .taste-img .overlay{
-		background: rgb(0,0,0);
+		/*background: rgb(0,0,0);
 		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%);
 		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%);
 		background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);*/
+		background:rgba(0,0,0,0.3);
 	}
 	.taste-different-ways-box .taste-img.openSlide .overlay{
 		background: rgb(0,0,0);
@@ -1982,7 +2011,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		margin-top: 50px;
 	}
 	.banner.technology-banner img{
-		margin: 86px auto;
+		margin: 43px auto 21px;
+	}
+	.symphony-speed-main-box{
+		margin-top: 0;
+		padding: 56px 0 0 0;
 	}
 	.symphony-speed-main-box .section-title{
 		margin-bottom: 30px;
