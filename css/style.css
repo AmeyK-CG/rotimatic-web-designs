@@ -8,7 +8,7 @@
 body{
 	font-family: 'Overpass', sans-serif;
 	font-size: 13px;
-	/*overflow-x: hidden !important;*/
+	overflow-x: hidden !important;
 }
 .wrapper{
 	max-width: 1920px;
@@ -602,25 +602,37 @@ header .navbar-toggle{
 /*taste-different-ways-box-end*/
 /*light-on-your-body-start*/
 .light-on-your-body{
-	padding: 126px 0;
+	padding: 146px 0;
 	background-color:#4975ae;
 }
+.light-on-your-body .light-body-inner-box-left{
+	max-width: 430px;
+	width: 100%;
+}
 .light-on-your-body .light-body-inner-box h5{
+	margin-top: 5px;
 	color: #fff;
-	font-size: 36px;
+	font-size: 42px;
 	font-weight: 200;
 	margin-bottom: 20px;
 }
 .light-on-your-body .light-body-inner-box p{
 	color: #fff;
 	font-weight: 300;
-	font-size: 16px;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing:0.33px;
+	margin-bottom: 34px;
+}
+.light-on-your-body .light-body-inner-box p:last-child{
+	margin-bottom: 35px;
+}
+.light-on-your-body .light-body-inner-box.form-box{
+	margin: 54px 0 0 0;
 }
 .light-on-your-body .how-much-save-box{
 	border:1px solid #fff;
-	margin:40px 0 0 0;
+	margin:35px 0 0 0;
 	padding: 27px 30px;
 	max-width: 430px;
 	width: 100%;
@@ -631,26 +643,34 @@ header .navbar-toggle{
 	text-align: center;
 }
 .light-on-your-body .how-much-save-box h6{
-	font-size: 40px;
+	font-size: 36px;
+	font-weight: 200;
 	color: #fff;
 	margin:20px 0 0 0;
 }
 .light-on-your-body .light-body-inner-box .form-group{
-	max-width: 500px;
+	max-width: 430px;
 	width: 100%;
-	margin:45px auto; 
+	margin:0px auto 95px; 
+}
+.light-on-your-body .light-body-inner-box .form-group:last-child{
+	margin-bottom: 0;
 }
 .light-on-your-body .light-body-inner-box .form-group label{
 	color:#fff;
-	font-size: 16px;
-	letter-spacing: 1px;
+	font-size: 18px;
+	letter-spacing:-0.22px;
 	font-weight: 400;
 }
 .light-on-your-body .light-body-inner-box .form-group .form-control{
 	border-radius: 0;
 	height: 50px;
 	box-shadow: none;
-	border:1px solid #274875;
+	border:1px solid #e8e8e8;
+	font-size: 18px;
+	letter-spacing: -0.34px;
+	line-height: 28px;
+	font-weight: 200;
 }
 .light-on-your-body .light-body-inner-box .form-group select.form-control{
 	-webkit-appearance:none;
@@ -750,7 +770,8 @@ header .navbar-toggle{
 }
 .customer-box{
 	margin:47px 0 0 0;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+	/*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);*/
+	box-shadow:0 0 30px 0 rgba(0,0,0,0.20)
 }
 .customer-review-img{
 	position: relative;
@@ -1097,14 +1118,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 300;
 }
 .design-to-delight-main-box{
-	padding: 91px 0;
+	padding: 31px 0;
 }
 .design-to-delight-main-box .design-delight-boxes{
 	margin:55px 0 0 0;
 }
 .design-delight-boxes .design-delight-box .delight-box-left{
 	margin-top: 120px;
-	max-width: 350px;
+	max-width: 300px;
 	width: 100%;
 	margin-left: 100px;
 }
@@ -1121,7 +1142,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #6C6C6C;
 	letter-spacing: 0.2px;
 	line-height: 27px;
-	font-weight: 300;
+	font-weight: 200;
 }
 .design-to-delight-main-box .design-delight-boxes button{
 	background-color: transparent;
@@ -1136,9 +1157,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 48px;
 	color: transparent;
 	font-weight: bold;	
+	width: 30px;
 }
 .design-to-delight-main-box .design-delight-boxes button.slick-next{
-	right:-65px;
+	/*right:-65px;*/
+	right: 0;
 }
 .design-to-delight-main-box .design-delight-boxes button.slick-next:before{
 	content: "\f105";
@@ -1147,7 +1170,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #e7e7e7;
 }
 .design-to-delight-main-box .design-delight-boxes button.slick-prev{
-	left:-140px;
+	/*left:-140px;*/
+	left: 0;
 }
 .design-to-delight-main-box .design-delight-boxes button.slick-prev:before{
 	content: "\f104";
@@ -1191,7 +1215,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	float: right;
 	height: 20px;
 	vertical-align: middle;
-	padding-left: 10px;
+	padding: 10px;
+}
+.faq-inner-box .panel.panel-default .panel-heading .panel-title a.collapsed 
+.icons{
+	padding: 5px 10px 5px 10px;
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a.collapsed .icons .minus{
 	display: none;
@@ -1640,7 +1668,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	    right: -30px;
 	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
-		left: -75px;	
+		/*left: -75px;*/	
+		left: 0;
 	}
 }
 @media screen and (max-width: 991px){
@@ -2104,7 +2133,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		text-align: center;
 	}
 	.design-delight-boxes .design-delight-box .delight-box-right{
-		height: 200px;
+		/*height: 200px;*/
+		padding: 40px 0;
 	}
 	.design-delight-boxes .design-delight-box .delight-box-right img{
 	    max-width: 190px;
@@ -2119,7 +2149,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	    -o-transform: translateY(-33%);
 	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-next{
-		right: -25px;
+		/*right: -25px;*/
+		right: 0;
 	}
 	.design-delight-boxes .design-delight-box .delight-box-left .delight-icon{
 		margin: 52px 0 0 0;
@@ -2127,6 +2158,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.faq-inner-box .panel.panel-default .panel-heading .panel-title a{
 		font-size: 18px;
 	}
+	.design-delight-boxes .design-delight-box .delight-box-left h4{
+		font-size: 26px;
+		line-height: 1;
+	}
+/*	.design-delight-boxes .design-delight-box .delight-box-left{
+		max-width: 220px;
+		width: 100%;
+	}*/
 	/*Technoloy-responsive-ends*/
 	/*Review page start*/
 	.masonry .customer-box-main .slick-list.draggable{
