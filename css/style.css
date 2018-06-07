@@ -1020,7 +1020,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .never-stop-bg img{
 	position: relative;
-	right: -53px;
+	/*right: -53px;*/
+	right: -70px;
 	/*top: -30px;*/
 	top:0;
 }
@@ -1667,13 +1668,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 /******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
 	.banner.technology-banner .roti-lovers{
-		right: -15px;
+		right: 10px;
 	}
 }
 @media screen and (max-width: 1024px){
-	.banner.technology-banner .roti-lovers {
-	    right: -30px;
-	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
 		/*left: -75px;*/	
 		left: 0;
