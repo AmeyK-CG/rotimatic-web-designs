@@ -36,6 +36,12 @@ a:hover{
 .no-padding{
 	padding: 0;
 }
+.no-padding-right{
+	padding-right: 0;
+}
+.no-padding-left{
+	padding-left: 0;
+}
 .primary-btn{
 	border:none;
 	background-color: #43af68;
@@ -870,7 +876,7 @@ footer .updated-rotimatic .form-group label{
 	color: #fff;
 	font-size: 17px;
 	font-weight: 300;
-	letter-spacing: 1px;
+	letter-spacing:0.3px;
 }
 footer .updated-rotimatic .form-group .form-control{
 	border-radius: 0;
@@ -1030,11 +1036,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #222;
 }
 .never-stop-learning .never-stop-learing-desc p{
-	font-size: 16px;
+	font-size: 18px;
 	color:#6C6C6C ;
 	line-height: 27px;
 	margin-bottom: 23px;
-	font-weight: 300;
+	font-weight: 200;
 	letter-spacing: 0.2px;
 }
 .rotimatic-mirror{
@@ -1060,10 +1066,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	margin-top: 0;
 }
 .rotimatic-mirror .rotimatic-mirror-desc p{
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 28px;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 200;
 	color: #6C6C6C;
 }
 .robot-with-human-touch{
@@ -1071,6 +1077,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .robot-with-human-touch .display-direction{
 	align-items: end;
+	margin-bottom: 230px;
 }
 .robot-with-human-touch .section-title{
 	margin-bottom: 60px;
@@ -1092,7 +1099,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: 0.2px;
 	line-height: 27px;
 	color: #6C6C6C;
-	font-weight: 300;
+	font-weight: 200;
 }
 .flat-out-main-box{
 	padding: 90px 0;
@@ -1115,7 +1122,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 21px;
 	letter-spacing: 0.3px;
 	line-height: 31px;
-	font-weight: 300;
+	font-weight: 200;
 }
 .design-to-delight-main-box{
 	padding: 31px 0;
@@ -1671,6 +1678,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		/*left: -75px;*/	
 		left: 0;
 	}
+	.never-stop-bg img{
+		right: 0;
+		top: 0;
+	}
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -1711,7 +1722,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	footer .updated-rotimatic .form-group button.updated-btn{
 		top:27px;
 	}
-
+	.never-stop-learning .never-stop-learing-desc{
+		margin-top: 40px;
+		max-width: 100%;
+		text-align: center;
+	}
+	.never-stop-learning .never-stop-learing-desc h2 br{
+		display: none;
+	}
 }
 @media screen and (max-width: 767px){
 	.display-direction{
@@ -2067,10 +2085,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 18px;
 		text-align: center;
 	}
-	.never-stop-bg img{
-		right: 0;
-		top: 0;
-	}
+	
 	.rotimatic-mirror{
 		background-image: none;
 		height: auto;
@@ -2081,7 +2096,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.rotimatic-mirror .rotimatic-mirror-desc h3{
 		font-size: 28px;
-		line-height: 1.5;	
+		line-height: 1.3;	
 		margin-bottom: 28px;
 	}
 	.robot-with-human-touch{
@@ -2089,7 +2104,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.robot-with-human-touch .human-touch-inner-box{
 		padding: 0;
-		max-width: 275px;
+		max-width: 285px;
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -2102,6 +2117,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.robot-with-human-touch .display-direction{
 		flex-flow: column; 
 		flex-direction: column-reverse;
+		margin-bottom: 50px;
 	}
 	.robot-with-human-touch .human-touch-inner-box h3{
 		margin-top: 0;
@@ -2124,6 +2140,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.flat-out-inner-box img{
 		margin-top: 74px;
+		max-width: 200px;
+		width: 100%;
 	}
 	.design-to-delight-main-box{
 		padding: 0;
@@ -2166,6 +2184,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		max-width: 220px;
 		width: 100%;
 	}*/
+	.design-to-delight-main-box .design-delight-boxes{
+		margin: 0;
+	}
+	.faq-main-box{
+		padding: 100px 0 0 0;
+	}
 	/*Technoloy-responsive-ends*/
 	/*Review page start*/
 	.masonry .customer-box-main .slick-list.draggable{
@@ -2194,6 +2218,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 @media screen and (max-width: 479px){
 	.take-our-word-inner-box .review-box .reviewer .admin-pic{
 		display: none;
+	}
+	.never-stop-learning .never-stop-learing-desc {
+	    max-width: 280px;
+	    width: 100%;
 	}
 }
 /*Responsive css end*/
