@@ -1666,6 +1666,43 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Individual-recipes-page-end*/
 /*About-page-start*/
+.banner.about-banner {
+	background-image: url(../images/e553eed75f612451752a11b59a29fbb886081039.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+}
+.banner.about-banner .banner-caption{
+	color:#fff;
+	top: 300px;
+	bottom: inherit;
+}
+.banner.about-banner .roti-counting{
+	position: absolute;
+    bottom: -125px;
+    left: 0;
+    right: 0;
+    max-width: 700px;
+    background-color: #fff;
+    height: 250px;
+}
+.banner.about-banner .roti-counting .roti-img{
+	width: 90px;
+	height: 90px;
+	margin: 20px auto 0;
+}
+.banner.about-banner .roti-counting h6{
+	color: #ff7c42;
+	font-size: 16px;
+	line-height: 16px;
+}
+.banner.about-banner .roti-counting span{
+	font-size: 10px;
+	line-height: 27px;
+	letter-spacing: 0.12px;
+	color:#6C6C6C;
+	display: block;
+}
 .join-us-main-box{
 	background-color: #4A76B0;
 	padding: 200px 0 94px 0;
@@ -2390,6 +2427,23 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	/*Review page ends*/
 	/*about-page-start*/
+	.banner.about-banner{
+		background-size: cover;
+		height: 300px;
+		background-position: 50%;
+	}
+	.banner.about-banner .banner-caption{
+		position: relative;
+		background-color: #fff;
+		width: 100%;
+		color: #222;
+	}
+	.banner.about-banner .roti-counting{
+		position: static;
+		bottom: 0;
+		top:0;
+		height: 220px;
+	}
 	.intro-ceo-main-box .intro-inner-box .col-md-right .intro-seo-info{
 		padding: 50px 22px;
 	}
