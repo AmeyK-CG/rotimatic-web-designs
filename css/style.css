@@ -2428,21 +2428,57 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	/*Review page ends*/
 	/*about-page-start*/
 	.banner.about-banner{
-		background-size: cover;
+		background-image: none;
+		height: auto;
+	}
+	.banner.about-banner .container{
+		padding: 0;
+	}
+	.banner.about-banner .about-banner-mobile{
+		background-image: url(../images/e553eed75f612451752a11b59a29fbb886081039.png);
 		height: 300px;
-		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+	.banner.about-banner .about-banner-mobile img{
+		position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    left: 0;
+	    height: 50px;
+	    width: 170px;
+	    text-align: center;
+	    display: inline-block;
+	    margin: 0 auto;
 	}
 	.banner.about-banner .banner-caption{
 		position: relative;
 		background-color: #fff;
 		width: 100%;
 		color: #222;
+		max-width: 100%;
+		top: 55px;
+		padding: 0 15px;
+	}
+	.banner.about-banner .banner-caption h1{
+		font-size: 28px;
+	}
+	.banner.about-banner .banner-caption p{
+		font-size: 16px;
 	}
 	.banner.about-banner .roti-counting{
 		position: static;
 		bottom: 0;
 		top:0;
-		height: 220px;
+		margin: 100px auto 0;
+		max-width: 280px;
+		width: 100%;
+	}
+	.join-us-main-box {
+	    padding: 250px 0 94px 0;
+	    margin: -200px 0 0 0;
 	}
 	.intro-ceo-main-box .intro-inner-box .col-md-right .intro-seo-info{
 		padding: 50px 22px;
