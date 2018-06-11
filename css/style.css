@@ -1793,6 +1793,18 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .board-members-main-box .board-member-inner-box{
 	margin-bottom: 40px;
+	display: table;
+	width: 100%;
+}
+.board-members-main-box .board-member-inner-box .col-md-left{
+	display: table-cell;
+	width: 33.33%;
+	vertical-align: middle;
+}
+.board-members-main-box .board-member-inner-box .col-md-right{
+	display: table-cell;
+	width: 66.67%;
+	vertical-align: middle;
 }
 .board-members-main-box .board-member-pic img{
 	width: auto;
@@ -1912,6 +1924,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		display: none;
 	}
 	/*about-page-start*/
+
 	.intro-ceo-main-box .intro-inner-box {
 	    display: block;
 	    width: 100%;
@@ -1936,6 +1949,17 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		position: static;
 	}
 	.intro-ceo-main-box .intro-inner-box .col-md-left .intro-seo-img img{
+		width: 100%;
+	}
+	.board-members-main-box .board-member-inner-box{
+		display: block;
+	}
+	.board-members-main-box .board-member-inner-box .col-md-left{
+		display: block;
+		width: 100%;
+	}
+	.board-members-main-box .board-member-inner-box .col-md-right{
+		display: block;
 		width: 100%;
 	}
 	.board-members-main-box .board-member-inner-box .board-member-pic{ 
