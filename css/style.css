@@ -68,6 +68,7 @@ a:hover{
 	padding: 8px 28px;
 	font-size: 13px;
 	line-height: 1;
+	text-decoration: none;
 	display: inline-block;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
@@ -1439,7 +1440,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Reviews-page-end*/
 /*Recipes-page-start*/
+.banner.recipes-banner .roti-lovers{
+	bottom: 200px;
+}
 .banner.recipes-banner .roti-counting{
+	background-color: #fff;
 	max-width: 750px;
 	border:1px solid #eee;
 	width: 100%;
@@ -1481,14 +1486,19 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .ingredient-main-box  .img-box .ingredient-info{
 	position: absolute;
 	bottom: 0;
-	left: 15px;
+	left: 0px;
 	width: 100%;
 	display: table;
+	/*background: rgb(0,0,0);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,0.30155812324929976) 0%, rgba(0,0,0,0) 50%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.30155812324929976) 0%, rgba(0,0,0,0) 50%);
+	background: linear-gradient(0deg, rgba(0,0,0,0.30155812324929976) 0%, rgba(0,0,0,0) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);*/
 }
 .ingredient-main-box  .img-box .ingredient-info .ingrd-name{
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 .ingredient-main-box  .img-box .ingredient-info .ingrd-name span{
 	font-size: 16px;
@@ -1509,7 +1519,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .ingredient-main-box .img-box .ingredient-info .ingrd-share{
 	display: table-cell;
 	vertical-align: middle;
-	padding-right: 40px;
+	padding-right: 30px;
 	text-align: right;
 }
 
@@ -2870,6 +2880,43 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		height: auto;
 	}
 	/*about-page-ends*/
+	/*recipes-page-start*/
+	.banner.recipes-banner .roti-counting{
+		top:-35px;
+		margin-bottom: 20px;
+	}
+	.fresh-ingredient-main-box .fresh-ingrediants-masonry-box ul{
+		margin: 35px 0;
+	}
+	.fresh-ingredient-main-box .fresh-ingrediants-masonry-box ul li a.primary-btn-rev{
+		width: 120px;
+		padding:13px 20px;
+		margin-bottom: 15px;
+	}
+	.fresh-ingredient-main-box .section-title h2{
+		font-size: 28px;
+		line-height: 40px;
+		letter-spacing: -0.3px;
+	}
+	.fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box{
+		margin-bottom: 0;
+	}
+	.ingredient-main-box .ingredient-right-box .ingre-right-bottom{
+		margin-top: 0;
+	}
+	.fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box .no-padding-left{
+		padding-left: 15px;
+	}
+	.fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box .no-padding-right{
+		padding-right: 15px;
+	}
+	.fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box .img-box{
+		margin-bottom: 15px;
+	}
+	.fresh-ingrediants-masonry-box .primary-btn{
+		margin: 30px auto;
+	}
+	/*recipes-page-end*/
 }
 @media screen and (max-width: 479px){
 	.take-our-word-inner-box .review-box .reviewer .admin-pic{
