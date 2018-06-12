@@ -1439,14 +1439,62 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Reviews-page-end*/
 /*Recipes-page-start*/
-.banner.recipes-banner{
-
-}
 .fresh-ingredient-main-box .fresh-ingrediants-masonry-box ul{
 	margin:45px 0 80px 0;
 	text-align: center;
+}.fresh-ingrediants-masonry-box .primary-btn{
+	padding: 13px 54px;
+	margin: 0 auto 40px;
+	display: block;
 }
-.ingredient-main-box{
+.fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box{
+	margin-bottom: 40px;
+}
+.fresh-ingrediants-masonry-box .ingredient-right-box .ingre-inner-box{
+	margin-bottom: 30px;
+}
+.ingredient-main-box .ingredient-right-box .ingre-right-bottom{
+	margin-top: 45px;
+}
+.ingredient-main-box .ingredient-right-box .img-box{
+	position: relative;
+}
+.ingredient-main-box  .img-box .ingredient-info{
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	width: 100%;
+	display: table;
+}
+.ingredient-main-box  .img-box .ingredient-info .ingrd-name{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+.ingredient-main-box  .img-box .ingredient-info .ingrd-name span{
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	display: block;
+	color: #fff;
+	font-weight: 200;
+}
+.ingredient-main-box .img-box .ingredient-info .ingrd-name h6{
+	font-size: 30px;
+	letter-spacing: -0.3px;
+	line-height: 40px;
+	font-weight: 200;
+	color: #fff;
+	margin: 0;
+}
+.ingredient-main-box .img-box .ingredient-info .ingrd-share{
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 40px;
+	text-align: right;
+}
+
+/*.ingredient-main-box{
 	display: flex;
 	-moz-column-count: 2; 
 	-moz-column-gap: 15px; 
@@ -1465,7 +1513,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .ingredient-main-box .ingredient-right-box .right-bottom-box{
 	display: flex;
 	column-count: 2;
-}
+}*/
 /*Recipes-page-end*/
 /*Individual-recipes-page-start*/
 .banner.individual-recipe-banner{
