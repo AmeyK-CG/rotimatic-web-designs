@@ -1439,6 +1439,25 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Reviews-page-end*/
 /*Recipes-page-start*/
+.banner.recipes-banner .roti-counting{
+	max-width: 750px;
+	border:1px solid #eee;
+	width: 100%;
+	margin: 0 auto;
+	padding:25px 0;
+	margin-bottom: 80px;
+}
+.banner.recipes-banner .roti-counting .roti-img{
+	width: 90px;
+	height: 90px;
+	margin:0px auto;
+}
+.banner.recipes-banner .roti-counting h6{
+	color: #ff7c42;
+}
+.banner.recipes-banner .roti-counting span{
+	color: #6C6C6C;
+}
 .fresh-ingredient-main-box .fresh-ingrediants-masonry-box ul{
 	margin:45px 0 80px 0;
 	text-align: center;
