@@ -144,6 +144,7 @@ header .nav.navbar-nav.navbar-right li:last-child{
 header .navbar-default .navbar-nav>li>a{
 	color: #252525;
 	font-size: 15px;
+	letter-spacing: 0.86px;
 }
 header .navbar-brand{
 	height: auto;
