@@ -2255,6 +2255,67 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #222;
 	font-weight: 200;
 }
+.price-plan-main-box{
+	padding: 93px 0 0 0;
+}
+.price-plan-main-box .title-caption{
+	text-align: center;
+	margin-top: 33px;
+}
+.price-plan-main-box .title-caption p{
+	font-size: 18px;
+	line-height: 28px;
+	color: #6C6C6C;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+.price-plan-main-box .roti-lover-main-box{
+	max-width: 790px;
+	width: 100%;
+	margin:50px auto 90px;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover{
+	border:1px solid #e8e8e8;
+	text-align: center;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-top{
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 36px;
+	background-color: #4975ae;
+	color: #fff;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-top h6{
+	margin:10px 0 26px;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 10px;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-top h3{
+	font-size: 36px;
+	letter-spacing: 0.43px;
+	font-weight: 800;
+	margin: 0 0 11px;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-top span{
+	font-size: 12px;
+	line-height: 16px;
+	display: inline-block;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-bottom{
+	padding: 19px 36px 22px;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-bottom span{
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.27px;
+	color: #6c6c6c;
+	font-weight: 200;
+}
+.price-plan-main-box .roti-lover-main-box .roti-lover .roti-bottom h4{
+	margin: 13px 0 0 0;
+	font-size: 22px;
+	color: #222;
+}
 
 /*buy-now-ends*/
 /******************************Responsive css start***********************/
@@ -2264,6 +2325,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 }
 @media screen and (max-width: 1024px){
+	header .navbar-nav li {
+	    margin: 7px 34px 0 0;
+	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
 		/*left: -75px;*/	
 		left: 0;
@@ -2309,14 +2373,33 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		margin: 0 0 30px; 
 		width: 100%;
 	}
+	.section-title h2{
+		font-size: 30px;
+	}
 	header .first-nav{
 		margin-left: 30px;
 	}
 	header .navbar-nav li{
 		margin-right: 20px;
 	}
+	header .navbar-default .navbar-nav>li>a{
+		font-size: 13px;
+	}
 	.banner.technology-banner .roti-lovers{
 		display: none;
+	}
+	.creative-main-box .creative-caption h2{
+		font-size: 40px;
+	}
+	.creative-main-box .creative-caption h3{
+		font-size: 30px;
+	}
+	.rotimatic-paid .count h2{
+		font-size: 50px;
+	}
+	.try-it-now-img img{
+		max-width: 500px;
+		width: 100%;
 	}
 	.light-on-your-body .how-much-save-box{
 		padding: 25px;
@@ -2327,6 +2410,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.light-on-your-body{
 		padding: 50px 0;
+	}
+	.light-on-your-body .light-body-inner-box-left{
+		margin: 0 auto;
 	}
 	footer .updated-rotimatic .form-group label{
 		font-size: 15px;
@@ -2385,6 +2471,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		text-align: center;
 	}
 	/*about-page-ends*/
+	/*buy-now-page-start*/
+	.peace-of-mind-main-box .peace-box .peace-desc h5{
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	/*buy-now-page-ends*/
 }
 @media screen and (max-width: 767px){
 	.display-direction{
