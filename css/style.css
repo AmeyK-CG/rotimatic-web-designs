@@ -2234,6 +2234,28 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	padding:13px 64px;
 	margin-top: 26px;
 }
+.rotimatic-basic-featurs-main-box{
+	padding: 77px 0 0px;
+}
+.rotimatic-basic-featurs-main-box .basic-features-inner-box{
+	margin-bottom: 65px;
+}
+.rotimatic-basic-featurs-main-box .basic-features-inner-box .media .media-left{
+	padding-right: 20px;
+}
+.rotimatic-basic-featurs-main-box .basic-features-inner-box .media .media-body{
+	width: auto;
+	vertical-align: middle;
+}
+.rotimatic-basic-featurs-main-box .basic-features-inner-box .media .media-body h6{
+	margin: 0;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.21px;
+	color: #222;
+	font-weight: 200;
+}
+
 /*buy-now-ends*/
 /******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
