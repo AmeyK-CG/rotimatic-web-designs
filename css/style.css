@@ -2184,6 +2184,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 30px;
 	color: #ff7c42;
 	letter-spacing: -0.22px;
+	font-weight: 200;
 }
 .elsewhere-main-box .elsewhere-box .elsewhere-desc span{
 	display: block;
@@ -2195,6 +2196,45 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	margin: 31px 0 0 0;
 }
 /*Contact-page-ends*/
+/*buy-now-start*/
+.buy-now-banner{
+	background-image: url(../images/e2be5cdc15e8c3a03adf4b112b2dbc92d7e11991.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 870px;
+	background-position: 25% 0%;
+}
+.banner.buy-now-banner .banner-caption-main{
+	max-width: 384px;
+	width: 100%;
+	position: absolute;
+	left: 250px;
+	top: 0;
+}
+.banner.buy-now-banner .banner-caption-main .banner-caption{
+	position: static;
+	margin-top: 55px;
+}
+.banner.buy-now-banner .banner-caption-main .roti-counting{
+	margin:150px auto 0;
+}
+.banner.buy-now-banner .banner-caption-main .roti-counting h6{
+	color: #ff7c42;
+}.banner.buy-now-banner .banner-caption-main .roti-counting span{
+	color: #222;
+}
+.banner.buy-now-banner .banner-caption-main .banner-caption p{
+	color: #000;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0.33px;
+	font-weight: 200;
+}
+.banner.buy-now-banner .banner-caption-main .banner-caption .primary-btn{
+	padding:13px 64px;
+	margin-top: 26px;
+}
+/*buy-now-ends*/
 /******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
 	.banner.technology-banner .roti-lovers{
