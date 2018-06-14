@@ -23,6 +23,10 @@ body{
 img{
 	max-width: 100%;
 }
+.slick-slide img{
+	margin: 0 auto;
+	text-align: center;
+}
 a{
 	text-decoration: none;
 	-webkit-transition: all .3s ease 0s;
@@ -367,13 +371,13 @@ header .navbar-toggle{
 .try-it-now{
 	text-align: center;
 }
-.try-it-now-img img{
-	/*max-width: 500px;*/
+/*.try-it-now-img img{
+	max-width: 500px;
 	max-width: 750px;
 	width: 100%;
 	display: block;
 	margin: 0 auto;
-}
+}*/
 .try-it-now button{
 	margin: 20px 0 0 0;
 	padding: 13px 55px;
@@ -789,17 +793,6 @@ header .navbar-toggle{
 	display: inline-block;
 	top:20px;
 	right: 20px;
-	border: 2px solid #fff;
-	border-radius: 100%;
-	height: 30px;
-	width: 30px;
-	line-height: 30px;
-	text-align: center;
-	color: #fff;
-}
-.customer-review-img .social-share:hover{
-	background-color:#4b76af;
-	color: #fff;
 }
 .customer-review-img img{
 	width: 100%;
@@ -962,8 +955,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .banner.technology-banner img{
 	/*max-width: 600px;*/
-	max-width: 1000px;
-	width: 100%;
+	/*max-width: 1000px;
+	width: 100%;*/
 	margin:25px auto 0;
 	text-align: center;
 	display: block;
@@ -1039,7 +1032,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #222;
 }
 .never-stop-learning .never-stop-learing-desc p{
-	font-size: 18px;
+	font-size: 16px;
 	color:#6C6C6C ;
 	line-height: 27px;
 	margin-bottom: 23px;
@@ -1052,12 +1045,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*height: 640px;*/
+	background-position: 50% 0;
 	height: 700px;
 }
 .rotimatic-mirror .rotimatic-mirror-desc{
 	max-width: 740px;
 	width: 100%;
-	margin: 90px auto 0;
+	/*margin: 90px auto 0;*/
+	margin: 60px auto 0;
 }
 .rotimatic-mirror .rotimatic-mirror-desc h3{
 	font-size: 42px;
@@ -1105,7 +1100,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 200;
 }
 .flat-out-main-box{
-	padding: 90px 0;
+	/*padding: 90px 0;*/
+	padding: 185px 0 88px;
 	color:#222;
 }
 .flat-out-main-box .section-title h2{
@@ -1181,13 +1177,17 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .design-to-delight-main-box .design-delight-boxes button.slick-prev{
 	/*left:-140px;*/
-	left: 0;
+	left: -20px;
 }
 .design-to-delight-main-box .design-delight-boxes button.slick-prev:before{
 	content: "\f104";
 	font-family: "FontAwesome";
 	display: block;
 	color: #e7e7e7;
+}
+.faq-main-box{
+	/*padding: 143px 0 31px;*/
+	padding: 0 0 31px;
 }
 .faq-inner-box{
 	max-width: 750px;
@@ -2328,9 +2328,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	header .navbar-nav li {
 	    margin: 7px 34px 0 0;
 	}
-	.try-it-now-img img{
+	/*.try-it-now-img img{
 		max-width: 650px;
-	}
+	}*/
 	.taste-different-ways-box .taste-img .taste-caption{
 		top: 33px;
 		left: 22px;
@@ -2353,6 +2353,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		right: 0;
 		top: 0;
 	}
+	.banner.technology-banner .banner-caption{
+		margin-top: 100px;
+	}
 	/*about-page-start*/
 	.intro-ceo-main-box .intro-inner-box .col-md-left .intro-seo-img{
 		left: 0%;
@@ -2373,6 +2376,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.board-members-main-box .board-member-info{
 		padding: 45px;
+	}
+	.robot-with-human-touch .display-direction{
+		margin-bottom: 130px;
 	}
 	/*about-page-ends*/
 }
@@ -2405,9 +2411,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.banner .roti-lovers{
 		right: 40px;
 	}
-	.banner.technology-banner img{
+	/*.banner.technology-banner img{
 		max-width: 600px;
-	}
+	}*/
 	.symphony-speed-main-box{
 		padding: 60px 0 0 0;
 	}
@@ -2420,10 +2426,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.rotimatic-paid .count h2{
 		font-size: 50px;
 	}
-	.try-it-now-img img{
+	/*.try-it-now-img img{
 		max-width: 500px;
 		width: 100%;
-	}
+	}*/
 	.light-on-your-body .how-much-save-box{
 		padding: 25px;
 		text-align: center;
@@ -2453,6 +2459,30 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.never-stop-learning .never-stop-learing-desc h2 br{
 		display: none;
+	}
+	.banner.technology-banner .roti-lovers{
+		display: none;
+	}
+	.never-stop-learning {
+	    padding: 50px 0 0 0;
+	}
+	.robot-with-human-touch .display-direction{
+		margin-bottom: 90px;
+	}
+	.robot-with-human-touch .human-touch-inner-box h3{
+		font-size: 34px;
+	}
+	.flat-out-main-box {
+	    padding: 90px 0; 
+	}
+	.design-delight-boxes .design-delight-box .delight-box-left{
+		margin-left: 30px;
+	}
+	.design-to-delight-main-box .design-delight-boxes button.slick-next{
+		right: -20px;
+	}
+	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
+		left: -20px;
 	}
 	/*about-page-start*/
 
@@ -2658,16 +2688,16 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.creative-main-box .creative-caption p{
 		font-size: 17px;
 	}
-	.try-it-now-img img {
+	/*.try-it-now-img img {
 	    max-width: 300px;
 	    width: 100%;
-	}
+	}*/
 	.rotimatic-paid .creative-caption p{
 		font-size: 17px;
 	}
-	.try-it-now{
+	/*.try-it-now{
 		margin-top: 75px;
-	}
+	}*/
 	.taste-endless-main-box{
 		margin: 50px 0 0 0;
 	    padding: 0 0 40px 0
@@ -2855,6 +2885,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.never-stop-learning .never-stop-learing-desc{
 		margin-top: 0;
+		padding-right: 15px;
 	}
 	.never-stop-learning .never-stop-learing-desc h2{
 		font-size: 28px;
@@ -2872,7 +2903,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.rotimatic-mirror .rotimatic-mirror-desc{
 		margin: 57px auto 40px;
-		max-width: 270px;
+		/*max-width: 270px;*/
 	}
 	.rotimatic-mirror .rotimatic-mirror-desc h3{
 		font-size: 28px;
@@ -2897,7 +2928,13 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.robot-with-human-touch .display-direction{
 		flex-flow: column; 
 		flex-direction: column-reverse;
-		margin-bottom: 50px;
+		margin:0 auto 50px;
+		width: 100%;
+		display: flex;
+	}
+	.robot-with-human-touch .display-direction > div{
+		display: block;
+		width: 100%;
 	}
 	.robot-with-human-touch .human-touch-inner-box h3{
 		margin-top: 0;
@@ -2949,6 +2986,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.design-to-delight-main-box .design-delight-boxes button.slick-next{
 		/*right: -25px;*/
 		right: 0;
+	}
+	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
+		left: 0;
 	}
 	.design-delight-boxes .design-delight-box .delight-box-left .delight-icon{
 		margin: 52px 0 0 0;
@@ -3221,10 +3261,24 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	    max-width: 280px;
 	    width: 100%;
 	}
-	.try-it-now-img img {
+	/*.try-it-now-img img {
 	    max-width: 200px;
 	    width: 100%;
+	}*/
+	.flat-out-inner-box img {
+	    margin-top: 34px;
 	}
-
+	.faq-main-box {
+	    padding: 50px 0 0 0;
+	}
+	.robot-with-human-touch .human-touch-inner-box{
+	    padding: 0;
+	    max-width: 285px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.rotimatic-mirror .rotimatic-mirror-desc{
+		max-width: 270px;
+	}
 }
 /*Responsive css end*/
