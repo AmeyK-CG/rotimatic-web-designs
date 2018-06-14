@@ -2328,6 +2328,23 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	header .navbar-nav li {
 	    margin: 7px 34px 0 0;
 	}
+	.try-it-now-img img{
+		max-width: 650px;
+	}
+	.taste-different-ways-box .taste-img .taste-caption{
+		top: 33px;
+		left: 22px;
+	}
+	.taste-different-ways-box .taste-img .taste-caption h4{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.light-on-your-body .light-body-inner-box h5{
+		font-size: 36px;
+	}
+	.light-on-your-body .light-body-inner-box p{
+		font-size: 16px;
+	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
 		/*left: -75px;*/	
 		left: 0;
@@ -2385,8 +2402,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	header .navbar-default .navbar-nav>li>a{
 		font-size: 13px;
 	}
-	.banner.technology-banner .roti-lovers{
-		display: none;
+	.banner .roti-lovers{
+		right: 40px;
+	}
+	.banner.technology-banner img{
+		max-width: 600px;
+	}
+	.symphony-speed-main-box{
+		padding: 60px 0 0 0;
 	}
 	.creative-main-box .creative-caption h2{
 		font-size: 40px;
@@ -2406,13 +2429,16 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		text-align: center;
 		max-width: 300px;
 		width: 100%;
-		margin: 0 auto;
+		margin: 30px auto 0;
 	}
 	.light-on-your-body{
 		padding: 50px 0;
 	}
 	.light-on-your-body .light-body-inner-box-left{
 		margin: 0 auto;
+	}
+	.light-on-your-body .light-body-inner-box .form-group{
+		margin: 0px auto 45px;
 	}
 	footer .updated-rotimatic .form-group label{
 		font-size: 15px;
@@ -2589,13 +2615,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.banner.home-banner .roti-counting{
 		position: absolute;
-		bottom: -175px;
+		bottom: -155px;
 		right: 0;
 		left: 0;
 		border:1px solid #e8e8e8;
 		background-color: #fff;
-		max-width: 270px;
+		max-width: 280px;
 		width: 100%;
+		margin: 0 auto;
 		padding: 15px;
 	}
 	.banner.home-banner .roti-counting h6{
@@ -2630,6 +2657,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.creative-main-box .creative-caption p{
 		font-size: 17px;
+	}
+	.try-it-now-img img {
+	    max-width: 300px;
+	    width: 100%;
 	}
 	.rotimatic-paid .creative-caption p{
 		font-size: 17px;
@@ -2727,6 +2758,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.light-on-your-body .how-much-save-box span{
 		font-size: 19px
 	}
+
 	.take-our-word-box{
 		padding: 32px 0 0 0;
 	}
@@ -2806,7 +2838,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		margin-top: 50px;
 	}
 	.banner.technology-banner img{
-		margin: 43px auto 21px;
+		margin: 43px auto 0px;
 	}
 	.symphony-speed-main-box{
 		margin-top: 0;
@@ -3174,6 +3206,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	/*contact-us-page-ends*/
 }
 @media screen and (max-width: 479px){
+	.banner.home-banner{
+		height: 357px;
+	}
+	.banner.home-banner .banner-caption{
+		top: 50px;
+		bottom: 0;
+		max-width: 280px;
+	}
 	.take-our-word-inner-box .review-box .reviewer .admin-pic{
 		display: none;
 	}
@@ -3181,5 +3221,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	    max-width: 280px;
 	    width: 100%;
 	}
+	.try-it-now-img img {
+	    max-width: 200px;
+	    width: 100%;
+	}
+
 }
 /*Responsive css end*/
