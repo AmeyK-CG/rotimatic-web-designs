@@ -2325,6 +2325,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .faq-page-main-box .faq-inner-box .faq-title{
 	margin-bottom: 30px;
 }
+.faq-page-main-box .faq-inner-box .faq-title h3 br{
+	display:none;
+}
 .faq-page-main-box .questions-box{
 	margin-bottom: 80px;
 }
@@ -2352,6 +2355,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #6C6C6C;
 	font-weight: 200;
 	display: block;
+}
+.faq-inner-box a .ques{
+	width: 80%;
+	display: inline-block;
 }
 /*Faq-page-ends*/
 /******************************Responsive css start***********************/
@@ -3310,6 +3317,15 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		line-height: 22px;
 	}
 	/*contact-us-page-ends*/
+	/*faq-page-start*/
+
+	.faq-page-main-box .faq-inner-box .faq-title h3 br{
+		display: block;
+	}
+	.faq-inner-box .questions-box .panel.panel-default .panel-heading .panel-title a{
+		font-size: 22px;
+	}
+	/*faq-page-ends*/
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
@@ -3345,6 +3361,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.rotimatic-mirror .rotimatic-mirror-desc{
 		max-width: 270px;
+	}
+	.faq-page-main-box .faq-inner-box .faq-title h3{
+		font-size: 24px;
 	}
 }
 /*Responsive css end*/
