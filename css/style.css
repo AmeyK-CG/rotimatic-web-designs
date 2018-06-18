@@ -2317,6 +2317,68 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 22px;
 	color: #222;
 }
+.taste-different-ways-box .taste-img-one.taste-pic-one{
+	background-image: url(../images/affbf940464aee19ff313daf41be0429b9a06abb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+}
+.taste-different-ways-box .taste-img-two.taste-pic-two{
+	background-image: url(../images/76bf5e452879ba9aa8bd9ea69630b0f490387ddc.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 30% 0;
+}
+.taste-different-ways-box .taste-img-three.taste-pic-three{
+	background-image: url(../images/a72b4f8d45c4b7a85c4f2e2057189f38f5265181.png);
+	background-repeat: no-repeat;
+	background-position: 69% 20%;
+}
+.taste-different-ways-box .taste-img-four.taste-pic-four{
+	background-image: url(../images/f7c721a8b286929084c94c5f2f375142f3e1738c.png);
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	background-size: cover;
+}
+.roti-now-pay-main-box{
+	background-color: #4975ae;
+	padding: 90px 0;
+}
+.roti-now-pay-main-box .section-title{
+	color:#fff;
+	margin-bottom: 37px;
+}
+.roti-now-pay-main-box .section-title h2{
+	color: #fff;
+	margin-bottom: 24px;
+}
+.roti-now-pay-main-box .section-title span{
+	font-size: 20px;
+	line-height: 33px;
+	letter-spacing: 0.33px;
+	font-weight: 200;
+}
+.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box{
+	border:1px solid #fff;
+	padding: 27px 42px;
+	text-align: center;
+	color: #fff;
+	height: 180px;
+	vertical-align: middle;
+}
+.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box span{
+	font-size: 18px;
+	letter-spacing: 0.22px;
+	display: block;
+	margin-bottom: 35px;
+}
+.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box p{
+	margin-bottom: 0;
+	font-size: 24px;
+	letter-spacing: 0.29px;
+	font-weight: 200;
+	line-height: 31px;
+}
 /*buy-now-ends*/
 /*Faq-page-start*/
 .faq-page-main-box{
