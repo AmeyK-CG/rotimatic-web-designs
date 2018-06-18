@@ -2379,6 +2379,35 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 200;
 	line-height: 31px;
 }
+.specification-main-box{
+	padding: 75px 0;
+}
+.specification-main-box .section-title{
+	margin-bottom: 66px;
+}
+.specification-main-box .specification-inner-box .specification-box{
+	margin-bottom: 70px;
+}
+.specification-main-box .specification-inner-box .specification-box .media .media-left{
+	vertical-align: middle;
+	padding-right: 20px;
+}
+.specification-main-box .specification-inner-box .specification-box .media .media-body{
+	vertical-align: middle;
+	width: auto;
+}
+.specification-main-box .specification-inner-box .specification-box .media .media-body h6{
+	font-size:  16px;
+	color: #ff7c42;
+	line-height: 19px;
+}
+.specification-main-box .specification-inner-box .specification-box .media .media-body span{
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.21px;
+	font-weight: 200;
+	color: #222;
+}
 /*buy-now-ends*/
 /*Faq-page-start*/
 .faq-page-main-box{
