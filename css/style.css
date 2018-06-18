@@ -2317,6 +2317,16 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 22px;
 	color: #222;
 }
+.pay-installments-main-box{
+	border-top:1px solid #e8e8e8;
+	padding: 37px 0;
+}
+.pay-installments-main-box .pay-instllment-inner-box .via-installment .media .media-left .check-box{
+	background-color: #4975ae;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
 .taste-different-ways-box .taste-img-one.taste-pic-one{
 	background-image: url(../images/affbf940464aee19ff313daf41be0429b9a06abb.png);
 	background-repeat: no-repeat;
@@ -2379,8 +2389,76 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 200;
 	line-height: 31px;
 }
+.in-thebox-main{
+	padding:75px 0;
+}
+.in-thebox-main .inthebox-inner-box{
+	display: flex;
+	flex-direction: row;
+	height: 600px;
+	margin-top: 37px;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-left{
+	background-image: url(../images/65645debb6f241c001b419453b45071013536445.png);
+	background-repeat: no-repeat;
+	background-position: 28% 0;
+	background-size: cover;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right{
+	display: flex;
+	flex-direction: column;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-top{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 300px;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-top .inthebox-right-top-left{
+	background-image: url(../images/9aaf8bd11f505568c75dc052fef2f5885e6b27bb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-top .inthebox-right-top-right{
+	background-image: url(../images/e04a82aaf496f036c38119912e706fa3c8bff562.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-bottom{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 300px;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-bottom .inthebox-right-bottom-left{
+	background-image: url(../images/6ac519fec099e694fe7d2033f3cfa8208a788656.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-bottom .inthebox-right-bottom-center{
+	background-image: url(../images/b5f66eedfa65cad4806e538847c029517bc610b8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-bottom .inthebox-right-bottom-right{
+	background-image: url(../images/a0676c2388ce32281a0b439912a0ff8c2859de9a.png);
+	background-repeat: no-repeat;
+	background-position: 36% 18%;
+}
+.inthebox-inner-box .product-name{
+	position: absolute;
+	top: 42px;
+	left: 42px;
+}
+.inthebox-inner-box .product-name span{
+	display: block;
+	color: #222;
+	font-size: 26px;
+	letter-spacing: 0.3px;
+	font-weight: 200;
+}
 .specification-main-box{
-	padding: 75px 0;
+	padding: 75px 0 5px;
 }
 .specification-main-box .section-title{
 	margin-bottom: 66px;
