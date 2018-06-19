@@ -143,6 +143,9 @@ header .navbar-nav li:last-child{
 header .nav.navbar-nav.navbar-right li{
 	margin-top:12px;
 }
+header .nav.navbar-nav.navbar-right li .primary-btn a{
+	color: #fff;
+}
 header .nav.navbar-nav.navbar-right li:last-child{
 	margin-top: 0px;
 }
@@ -218,8 +221,8 @@ header .navbar-toggle{
     height: 900px;
     background-position:45% 10%;
 }
-.banner.home-banner .banner-overlay{
-	background-color: rgba(0,0,0,0.2);
+.banner .banner-overlay{
+	background-color: rgba(0,0,0,0.35);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2603,6 +2606,162 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	display: inline-block;
 }
 /*Faq-page-ends*/
+/*Careers-page-start*/
+.banner.career-banner{
+	background-image: url(../images/183036e58fc946591475634092672e4c3869938c.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 875px;
+}
+.banner.career-banner .banner-caption{
+	color: #fff;
+	bottom: 0;
+	top: 250px;
+	max-width: 750px;
+	width: 100%;
+}
+.banner.career-banner .banner-caption h1{
+	font-size: 60px;
+	letter-spacing: -0.83px;
+	font-weight: 200;
+}
+.good-vibes-main-box{
+	background-color: #4975ae;
+	padding: 117px 0 108px;
+	color: #fff;
+}
+.good-vibes-main-box .section-title h2{
+	color: #fff;
+	font-size:42px;
+	letter-spacing: -0.52px;
+	font-weight: 200;	
+	margin-bottom: 10px;
+}
+.good-vibes-main-box .section-title span{
+	font-size: 21px;
+	line-height: 28px;
+	letter-spacing: 0.35px;
+	font-weight: 200;
+}
+.staright-box-main-box .staright-box{
+	position: relative;
+}
+.staright-box-main-box .staright-box .staright-overlay-left{
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(45deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%);
+	background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%);
+	background: linear-gradient(45deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.staright-box-main-box .staright-box .staright-overlay-right{
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.30155812324929976) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.30155812324929976) 0%, rgba(0,0,0,0) 100%);
+	background: linear-gradient(-45deg, rgba(0,0,0,0.30155812324929976) 0%, rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.staright-box-main-box .staright-box .contant-box{
+	max-width: 384px;
+	width: 100%;
+}
+.staright-box-main-box .staright-box .contant-box h3{
+	margin:0 0 3 0px;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: -0.3px;
+}
+.staright-box-main-box .staright-box .contant-box p{
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	font-weight: 200;
+}
+.staright-box-main-box .staright-box .contant-box.staright-box-inner-left{
+	position: absolute;
+	color:#fff;
+	left: 180px;
+	top: 234px;
+}
+.staright-box-main-box .staright-box .contant-box.staright-box-inner-right{
+	position: absolute;
+	color:#fff;
+	right: 180px;
+	top: 200px;
+}
+.staright-box-main-box .staright-box.one{
+	background-image: url(../images/2ece48d163e41a75284d50e2f1cba3cd69ecb2b5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+.staright-box-main-box .staright-box.two{
+	background-image: url(../images/4a4a435d8df43e717ac29b916fd023d8ba03f2d1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;	
+}
+.staright-box-main-box .staright-box.three{
+	background-image: url(../images/4d27e87b433f44fe52b65442d56cc60a27781570.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 61%;
+	height: 700px;	
+}
+.staright-box-main-box .staright-box.four{
+	background-image: url(../images/d99d9fda899665605856262befadddf5591a1408.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 100%;
+	height: 700px;	
+}
+.client-testimonials-main-box{
+	background-color: #f9f9f9;
+	padding: 107px 0;
+}
+.client-testimonials-main-box .testimonial-inner-box{
+	padding: 94px 43px 39px 40px;
+	background-color: #fff;
+	border-radius: 15px;
+	position: relative;
+	max-width: 800px;
+	width: 100%;
+	margin:0 auto;
+}
+.client-testimonials-main-box .testimonial-inner-box .quote{
+	margin-bottom: 13px;
+	display: block;
+}
+.client-testimonials-main-box .testimonial-inner-box .author{
+	color:#ff7c42 ;
+	font-size: 14px;
+	display: block;
+	position: absolute;
+	right: 43px;
+	bottom:33px;
+	line-height: 19px;
+}
+.client-testimonials-main-box .testimonial-inner-box p{
+	font-size: 18px;
+	line-height: 33px;
+	font-weight: 200;
+	color: #222;
+	margin-bottom: 30px;
+}
+/*Careers-page-ends*/
 /******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
 	.banner.technology-banner .roti-lovers{
@@ -2894,6 +3053,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	header .navbar-header .primary-btn.pull-right{
 		margin-right: 20px;
 		padding: 8px 20px;
+	}
+	header .navbar-header .primary-btn.pull-right.primary-btn a{
+		color: #fff;
 	}
 	header .nav.navbar-nav.navbar-right{
 		margin:0px 0 30px;
