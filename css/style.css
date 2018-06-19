@@ -2318,14 +2318,63 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #222;
 }
 .pay-installments-main-box{
+	border-bottom:1px solid #e8e8e8;
+}
+.pay-installments-main-box .container{
 	border-top:1px solid #e8e8e8;
-	padding: 37px 0;
+	padding: 37px 15px;
 }
 .pay-installments-main-box .pay-instllment-inner-box .via-installment .media .media-left .check-box{
 	background-color: #4975ae;
 	width: 50px;
 	height: 50px;
+	vertical-align: middle;
+	line-height: 60px;
 	text-align: center;
+}
+.pay-installments-main-box .pay-instllment-inner-box{
+	max-width: 670px;
+	width: 100%;
+	margin:0 auto;
+}
+.pay-installments-main-box .pay-instllment-inner-box .via-installment .media-left{
+	padding-right: 20px;
+}
+.pay-installments-main-box .pay-instllment-inner-box .via-installment .media-body h6{
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 22px;
+	letter-spacing: 0.3px;
+}
+.pay-installments-main-box .pay-instllment-inner-box .via-installment .media-body p{
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 200;
+	color: #6c6c6c;
+}
+.pay-installments-main-box .primary-btn{
+	margin: 13px auto 0;
+	padding: 13px 84px;
+	display: block;
+}
+.pay-installments-main-box .checkout-process-inner-box{
+	margin-top: 40px;
+}
+.pay-installments-main-box .checkout-process-inner-box .media-left{
+	vertical-align: middle;
+	padding-right: 20px;
+}
+.pay-installments-main-box .checkout-process-inner-box .media-body{
+	vertical-align: middle;
+	width: auto;
+}
+.pay-installments-main-box .checkout-process-inner-box .media-body p{
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.3px;
+	color: #222;
+	margin-bottom: 0;
+	font-weight: 200;
 }
 .taste-different-ways-box .taste-img-one.taste-pic-one{
 	background-image: url(../images/affbf940464aee19ff313daf41be0429b9a06abb.png);
