@@ -1,4 +1,4 @@
-/*overpass-fonts*/
+opening-box/*overpass-fonts*/
 @import url('https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,600,700,800,900');
 *{
 	margin:0;
@@ -2760,6 +2760,148 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-weight: 200;
 	color: #222;
 	margin-bottom: 30px;
+}
+.why-zimplistic-main-box{
+	padding: 90px 0;
+}
+.why-zimplistic-main-box .why-zimpli-inner-box{
+	margin: 70px 0 0 0;
+}
+.why-zimplistic-main-box .why-zimpli-inner-box .why-box{
+	text-align: center;
+	margin: 0 auto 84px;
+	max-width: 305px;
+	width: 100%;
+}
+.why-zimplistic-main-box .why-zimpli-inner-box .why-box .icons{
+	margin-bottom: 26px;
+}
+.why-zimplistic-main-box .why-zimpli-inner-box .why-box h5{
+	font-size: 30px;
+	letter-spacing: -0.22px;
+	margin: 0 0 36px;
+	font-weight: 200;
+	color: #ff7c42;
+}
+.why-zimplistic-main-box .why-zimpli-inner-box .why-box p{
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 200;
+	letter-spacing: 0.2px;
+	color: #222;
+}
+.current-openings-main-box{
+	padding: 110px 0;
+}
+.current-openings-main-box .section-title{
+	margin-bottom: 45px;
+}
+.current-openings-main-box .opening-tabs h5{
+	font-size: 16px;
+	line-height: 16px;
+	color: #ff7c42;
+}
+.current-openings-main-box .opening-tabs ul{
+	margin: 12px 0 0 0;
+}
+.current-openings-main-box .opening-tabs ul li{
+	margin-bottom: 10px;
+}
+.current-openings-main-box .opening-tabs ul li a{
+	display: inline-block;
+	padding: 12px 17px;
+	width: 145px;
+	text-align: center;
+}
+.current-openings-main-box .info-inner-box{
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+}
+.current-openings-main-box .info-inner-box .load-more{
+	padding: 12px 85px;
+	display: block;
+	margin: 0 auto;
+}
+.current-openings-main-box .info-inner-box .opening-box{
+	border:1px solid #e8e8e8;
+	padding: 32px;
+	margin-bottom: 30px;
+}
+.info-inner-box .opening-box .opening-top-box .country-tech{
+	float: right;
+	font-size: 10px;
+	line-height: 27px;
+	letter-spacing: 0.12px;
+	color: #6c6c6c;
+}
+.info-inner-box .opening-box .opening-box-desc{
+	margin:28px 0 40px 0;
+}
+.info-inner-box .opening-box .opening-box-desc h6{
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: -0.3px;
+	color: #222;
+	margin-bottom: 27px;
+}
+.info-inner-box .opening-box .opening-box-desc p{
+	font-size: 18px;
+	line-height: 33px;
+	color: #6C6C6C;
+	font-weight: 200;
+}
+.info-inner-box .opening-box .opening-bottom-box .share-info{
+	float: right;
+}
+.love-technology-main-box{
+	padding: 90px 0;
+}
+.love-technology-main-box .section-title{
+	max-width: 860px;
+	width: 100%;
+	margin: 0 auto 38px;
+}
+.love-technology-main-box .section-title h2{
+	margin-bottom: 33px;
+}
+.love-technology-main-box .section-title p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 200;
+	color: #6C6C6C;
+}
+.love-technology-main-box .love-technoloy-form .form-group{
+	margin-bottom: 33px;
+	
+}
+.love-technology-main-box .love-technoloy-form .form-group label{
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	color: #6c6c6c;
+	width: 100%;
+}
+.love-technology-main-box .love-technoloy-form .form-group .form-control{
+	border-radius: 0;
+	height: 50px;
+	max-width: 420px;
+	width: 100%;
+	box-shadow: none;
+	border-color: #e8e8e8;
+}
+.love-technology-main-box .love-technoloy-form .form-group input[type="file"]{
+	display: none;
+}
+.love-technology-main-box .love-technoloy-form .form-group .upload-file{
+	border-style: dashed;
+	display: block;
+	margin-top: 5px;
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+}
+.love-technology-main-box .love-technoloy-form .form-group textarea.form-control{
+	height: 160px;
 }
 /*Careers-page-ends*/
 /******************************Responsive css start***********************/
