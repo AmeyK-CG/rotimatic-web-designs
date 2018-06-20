@@ -2791,7 +2791,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	color: #222;
 }
 .current-openings-main-box{
-	padding: 110px 0;
+	padding: 10px 0 110;
 }
 .current-openings-main-box .section-title{
 	margin-bottom: 45px;
@@ -2816,7 +2816,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .current-openings-main-box .info-inner-box{
 	max-width: 1300px;
 	width: 100%;
-	margin: 0 auto;
+	margin:30px auto 0;
 }
 .current-openings-main-box .info-inner-box .load-more{
 	padding: 12px 85px;
@@ -2855,7 +2855,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	float: right;
 }
 .love-technology-main-box{
-	padding: 90px 0;
+	padding: 90px 0 47px;
 }
 .love-technology-main-box .section-title{
 	max-width: 860px;
@@ -2902,6 +2902,53 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .love-technology-main-box .love-technoloy-form .form-group textarea.form-control{
 	height: 160px;
+}
+.love-technology-main-box .love-technoloy-form .form-group select.form-control{
+	-webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.love-technology-main-box .love-technoloy-form .form-group .check-box{
+	display: block;
+	position: relative;
+	padding-left: 75px;
+	line-height: 50px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+}
+.love-technology-main-box .love-technoloy-form .form-group .check-box input{
+	position: absolute;
+	opacity: 0;
+  	cursor: pointer;
+}
+.love-technology-main-box .love-technoloy-form .form-group .check-box .checkmark{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	border: 1px solid #e8e8e8;
+	display: block;
+	background-color: transparent;
+}
+.love-technology-main-box .love-technoloy-form .form-group .check-box .checkmark:after{
+	content: "ppppp";
+	position: absolute;
+	display: none;	
+}
+.love-technology-main-box .love-technoloy-form .form-group .check-box input[type="checkbox"]:checked 
+.checkmark:after{
+	display: block;
+}
+.love-technology-main-box .love-technoloy-form .love-technology-box .primary-btn{
+	float: right;
+	margin-right: 130px;
+	padding:13px 84px;
 }
 /*Careers-page-ends*/
 /******************************Responsive css start***********************/
