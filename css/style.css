@@ -2965,6 +2965,18 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Careers-page-ends*/
 /*blog-page-start*/
+.banner.blog-banner{
+	background-image: url(../images/0e474189efb03c1c0bed801fd1b9a82362a0b035.png);
+	background-repeat: no-repeat;
+	height: 855px;
+	background-size: cover;
+}
+.banner.blog-banner .carousel.slide{
+	height: 855px;
+}
+.banner.blog-banner .carousel.slide .carousel-inner{
+	height: 855px;
+}
 .banner.blog-banner .carousel-control{
 	opacity: 1;
 }
@@ -2991,6 +3003,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption{
 	top: 270px;
+	padding: 0;
 	text-shadow: none;
 }
 .banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
@@ -3052,6 +3065,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	display: block;
 	margin:0 auto;
 	padding: 13px 61px;
+}
+.delight-box .delight-customer-main-box{
+	margin: 90px 0 0 0;
+}
+.delight-box .delight-customer-main-box .star-rating{
+	margin: 0 0 50px 0;
 }
 /*blog-page-ends*/
 /******************************Responsive css start***********************/
@@ -4210,6 +4229,33 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		display: block;
 	}
 	/*Careers-page-ends*/
+	/*blog-page-start*/
+	.banner.blog-banner{
+		height: 460px;
+		background-position:65%; 
+	}
+	.banner.blog-banner .carousel.slide{
+		height: 460px;
+	}
+	.banner.blog-banner .carousel.slide .carousel-inner{
+		height: 460px;
+	}
+	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption{
+		top: 65px;
+	}
+	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
+		font-size: 28px;
+	}
+	.banner.blog-banner .carousel.slide .arrow.right-arrow{
+		right: 15px;
+	}
+	.banner.blog-banner .carousel.slide .arrow.left-arrow{
+		left: 15px;
+	}
+	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption p{
+		font-size: 16px;
+	}
+	/*blog-page-ends*/
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
