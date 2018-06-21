@@ -2949,10 +2949,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	display: block;
 	background-color: transparent;
 }
-.love-technology-main-box .love-technoloy-form .form-group .check-box .checkmark:after{
+.love-technology-main-box .love-technoloy-form .form-group .check-box input:checked ~.checkmark:after{
 	content: "ppppp";
 	position: absolute;
-	display: none;	
+	display: block;	
 }
 .love-technology-main-box .love-technoloy-form .form-group .check-box input[type="checkbox"]:checked 
 .checkmark:after{
@@ -2964,6 +2964,96 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	padding:13px 84px;
 }
 /*Careers-page-ends*/
+/*blog-page-start*/
+.banner.blog-banner .carousel-control{
+	opacity: 1;
+}
+.banner.blog-banner .carousel-control.left,
+.banner.blog-banner .carousel-control.right{
+	background-image: none;
+	background-repeat:no-repeat;
+}
+.banner.blog-banner .carousel.slide .arrow{
+	display: block;
+	top: 50%;
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	transform:translateY(-50%);
+	position: absolute;
+}
+.banner.blog-banner .carousel.slide .arrow.left-arrow{
+	left: 100px;
+}
+.banner.blog-banner .carousel.slide .arrow.right-arrow{
+	right: 100px;
+}
+.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption{
+	top: 270px;
+	text-shadow: none;
+}
+.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
+	font-size: 60px;
+	letter-spacing: -0.33px;
+	font-weight: 200;
+}
+.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption p{
+	font-size: 21px;
+	line-height: 31px;
+	letter-spacing: 0.35px;
+	font-weight: 200;
+	margin-bottom: 0;
+
+}
+.banner.blog-banner .carousel-indicators{
+	bottom: 42px;
+}
+.banner.blog-banner .carousel-indicators li{
+	width: 21px;
+	height: 6px;
+	border-radius: 0;
+	background-color: #fff;
+	border:none;
+	margin-right: 10px;
+}
+.banner.blog-banner .carousel-indicators li.active{
+	background-color: #ff7c42;
+}
+.customer-articles-main-box{
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 110px;
+}
+.customer-articles-main-box .customer-article-inner-box .customer-article-box{
+	border:1px solid #e8e8e8;
+	margin:0 0 30px;
+}
+.customer-articles-main-box .customer-article-inner-box .customer-article-box .article-desc{
+	padding: 40px 35px;
+}
+.customer-article-inner-box .customer-article-box .article-desc .article-info{
+	margin: 28px 0;
+}
+.customer-article-inner-box .customer-article-box .article-desc .article-info h5{
+	margin: 0 0 25px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 33px;
+	letter-spacing: -0.3px;
+	color: #222;
+}
+.customer-article-inner-box .customer-article-box .article-desc .article-info p{
+	font-size: 18px;
+	line-height: 33px;
+	font-weight: 200;
+	color: #6C6C6C;
+}
+.customer-articles-main-box .customer-article-inner-box .primary-btn{
+	display: block;
+	margin:0 auto;
+	padding: 13px 61px;
+}
+/*blog-page-ends*/
 /******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
 	.banner.technology-banner .roti-lovers{
@@ -3219,6 +3309,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.staright-box-main-box .staright-box .contant-box.staright-box-inner-right{
 		right: 40px;
+	}
+	.why-zimplistic-main-box{
+		padding: 90px 0 45px;
 	}
 }
 @media screen and (max-width: 767px){
