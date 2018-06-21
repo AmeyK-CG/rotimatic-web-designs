@@ -4254,6 +4254,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption p{
 		font-size: 16px;
+		line-height: 27px;
 	}
 	/*blog-page-ends*/
 }
