@@ -1,4 +1,4 @@
-opening-box/*overpass-fonts*/
+/*overpass-fonts*/
 @import url('https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,600,700,800,900');
 *{
 	margin:0;
@@ -2625,6 +2625,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: -0.83px;
 	font-weight: 200;
 }
+.banner.career-banner .banner-caption h1 br{
+	display: none;
+}
+.banner.career-banner .banner-caption .primary-btn{
+	margin-top: 24px;
+}
 .good-vibes-main-box{
 	background-color: #4975ae;
 	padding: 117px 0 108px;
@@ -2636,6 +2642,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: -0.52px;
 	font-weight: 200;	
 	margin-bottom: 10px;
+}
+.good-vibes-main-box .section-title h2 br,.good-vibes-main-box .section-title span br{
+	display: none;
 }
 .good-vibes-main-box .section-title span{
 	font-size: 21px;
@@ -2679,7 +2688,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	width: 100%;
 }
 .staright-box-main-box .staright-box .contant-box h3{
-	margin:0 0 3 0px;
+	margin:0 0 3px 0;
 	font-weight: 200;
 	font-size: 40px;
 	letter-spacing: -0.3px;
@@ -2880,6 +2889,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: 0.2px;
 	color: #6c6c6c;
 	width: 100%;
+	font-weight: 400;
 }
 .love-technology-main-box .love-technoloy-form .form-group .form-control{
 	border-radius: 0;
@@ -2899,6 +2909,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	width: 100%;
 	line-height: 40px;
 	text-align: center;
+}
+.love-technology-main-box .love-technoloy-form .form-group .upload-file strong{
+	color:#4975ae;
 }
 .love-technology-main-box .love-technoloy-form .form-group textarea.form-control{
 	height: 160px;
@@ -3028,6 +3041,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		left: 200px;
 	}
 	/*buy-now-page-ends*/
+	.staright-box-main-box .staright-box .contant-box.staright-box-inner-left{
+		left: 80px;
+	}
+	.staright-box-main-box .staright-box .contant-box.staright-box-inner-right{
+		right: 80px;
+	}
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -3195,6 +3214,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		line-height: 1.2;
 	}
 	/*buy-now-page-ends*/
+	.staright-box-main-box .staright-box .contant-box.staright-box-inner-left{
+		left: 40px;
+	}
+	.staright-box-main-box .staright-box .contant-box.staright-box-inner-right{
+		right: 40px;
+	}
 }
 @media screen and (max-width: 767px){
 	.display-direction{
@@ -4007,6 +4032,91 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		padding: 60px 0;
 	}
 	/*buy-now-page-ends*/
+	/*Careers-page-start*/
+	.banner.career-banner{
+		height: 390px;
+		background-position: center;
+	}
+	.banner.career-banner .banner-caption{
+		top: 65px;
+		max-width: 310px;
+	}
+	.banner.career-banner .banner-caption h1{
+		font-size: 28px;
+		letter-spacing: -0.21px;
+	}
+	.banner.career-banner .banner-caption h1 br{
+		display: block;
+	}
+	.banner.career-banner .banner-caption .primary-btn{
+		margin-top: 30px;
+	}
+	.good-vibes-main-box .section-title h2{
+		font-size: 28px;
+		letter-spacing: -0.21px;
+	}
+	.good-vibes-main-box .section-title span{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.good-vibes-main-box .section-title h2 br,.good-vibes-main-box .section-title span br{
+		display: block;
+	}
+	.staright-box-main-box .staright-box.one,.staright-box-main-box .staright-box.two,.staright-box-main-box .staright-box.three,.staright-box-main-box .staright-box.four{
+		height: 430px;
+		background-position: center;
+	}
+	.staright-box-main-box .staright-box .staright-overlay-right,.staright-box-main-box .staright-box .staright-overlay-left{
+		background:rgba(0,0,0,0.5);
+	}
+	.staright-box-main-box .staright-box .contant-box.staright-box-inner-left,.staright-box-main-box .staright-box .contant-box.staright-box-inner-right{
+		right: 0;
+		left: 0;
+		margin:0 auto;
+		top: 82px;
+		max-width: 280px;
+		width: 100%;
+		text-align: center;
+	}
+	.staright-box-main-box .staright-box .contant-box h3{
+		margin-bottom: 24px;
+	}
+	.client-testimonials-main-box{
+		padding: 80px 0;
+	}
+	.client-testimonials-main-box .testimonial-inner-box{
+		padding:40px 22px;
+	}
+	.why-zimplistic-main-box .section-title{
+		margin-bottom: 40px;
+	}
+	.why-zimplistic-main-box .why-zimpli-inner-box{
+		margin: 0;
+	}
+	.why-zimplistic-main-box .why-zimpli-inner-box .why-box{
+		max-width: 275px;
+		width: 100%;
+		margin: 0 auto 60px;
+	}
+	.current-openings-main-box .opening-tabs h5{
+		text-align: center;
+	}
+	.current-openings-main-box .opening-tabs ul li a{
+		width: 130px;
+		padding: 12px 10px;
+	}
+	.current-openings-main-box .info-inner-box .opening-box{
+		padding: 40px 20px;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .check-box{
+		font-size: 20px;
+	}
+	.love-technology-main-box .love-technoloy-form .love-technology-box .primary-btn{
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	/*Careers-page-ends*/
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
@@ -4050,6 +4160,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.peace-of-mind-inner-box .peace-box .peace-desc h5{
 		font-size: 12px;
 	}
-	/*buy-now-page-ends*/
+	
 }
 /*Responsive css end*/
+	/*buy-now-page-ends*/
