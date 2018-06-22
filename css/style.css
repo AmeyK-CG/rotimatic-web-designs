@@ -46,6 +46,9 @@ a:hover{
 .no-padding-left{
 	padding-left: 0;
 }
+svg:hover{
+	fill: #000000;
+}
 .primary-btn{
 	border:none;
 	background-color: #43af68;
@@ -3036,6 +3039,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .customer-articles-main-box{
 	border-bottom: 1px solid #e8e8e8;
 	padding-bottom: 110px;
+	margin: 100px 0 0 0;
+}
+.customer-articles-main-box .section-title{
+	margin: 52px auto 80px;
 }
 .customer-articles-main-box .customer-article-inner-box .customer-article-box{
 	border:1px solid #e8e8e8;
@@ -3070,9 +3077,107 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	margin: 90px 0 0 0;
 }
 .delight-box .delight-customer-main-box .star-rating{
-	margin: 0 0 50px 0;
+	margin: 70px auto 50px;
 }
 /*blog-page-ends*/
+/*press-page-start*/
+.banner.press-banner{
+	background-image: url(../images/fd882e7baf3028004c8878e2520aaf9b83c1b602.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 875px;
+}
+.banner.press-banner .banner-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	color:#fff;
+}
+.banner.press-banner .banner-caption h1 br{
+	display: none;
+}
+.press-coverage-main-box{
+	background-color: #f9f9f9;
+	margin: 0 0 50px;
+	padding: 90px 0 0 0;
+}
+.press-coverage-main-box .press-coverage-inner-box{
+	margin:48px 0 0 0;
+}
+.press-coverage-main-box .press-coverage-inner-box .coverage-box{
+	margin:0 auto 50px;
+	background-color: #fff;
+	padding: 40px 40px 54px 40px;
+	border-radius: 25px;
+	overflow: hidden;
+	max-width: 487px;
+	width: 100%;
+}
+.press-coverage-main-box .press-coverage-inner-box .coverage-box .quote{
+	display: block;
+	margin: 0 0 27px;
+}
+.press-coverage-main-box .press-coverage-inner-box .coverage-box .coverage-desc p{
+	margin:0 0 0 0;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 33px;
+	color: #222;
+}
+.press-coverage-main-box .press-coverage-inner-box .coverage-box .press-pic{
+	float: right;
+	margin:27px 0 0 0;
+	text-align: right;
+}
+.press-coverage-main-box .press-coverage-inner-box .coverage-box .press-pic img{
+	height: 30px;
+}
+.press-coverage-main-box .press-coverage-inner-box .primary-btn{
+	padding: 13px 84px;
+	display: block;
+	margin: 0 auto 64px;
+}
+.press-kit-main-box{
+	padding: 110px 0 160px;
+}
+.press-kit-main-box .press-kit-desc{
+	padding: 61px 0 0 0;
+	max-width: 400px;
+	width: 100%;
+}
+.press-kit-main-box .press-kit-desc h2{
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: -0.3px;
+	color: #222;
+	margin:0 0 36px;
+	font-weight: 200;
+}
+.press-kit-main-box .press-kit-desc p{
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	color: #6C6C6C;
+	font-weight: 200;
+}
+.press-kit-main-box .press-kit-desc .primary-btn{
+	display: block;
+	padding: 13px 60px;
+	margin:45px 0 0 0;
+}
+.press-kit-main-box .press-kit-pic{
+	max-width: 557px;
+	width: 100%;
+	margin: 0 auto;
+}
+/*press-page-ends*/
 /******************************Responsive css start***********************/
 @media screen and (max-width: 1169px){
 	.banner.technology-banner .roti-lovers{
@@ -4256,7 +4361,84 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 16px;
 		line-height: 27px;
 	}
+	.customer-articles-main-box{
+		margin: 40px 0 0 0;
+		padding:0 0 80px; 
+	}
+	.delight-box .delight-customer-main-box{
+		margin: 46px 0 0 0;
+	}
+	.delight-box .delight-customer-main-box .star-rating{
+		margin: 50px auto 40px;
+	}
+	.customer-articles-main-box .customer-article-inner-box .customer-article-box{
+		max-width: 400px;
+		width: 100%;
+		margin:0 auto 30px;
+	}
 	/*blog-page-ends*/
+	/*press-page-start*/
+	.banner.press-banner{
+		height: 390px;
+		background-position: 56%;
+	}
+	.banner .banner-caption{
+		max-width: 280px;
+		width: 100%;
+	}
+
+	.banner .banner-caption h1{
+		font-size: 28px;
+		line-height: 1.3;
+	}
+	.banner.press-banner .banner-caption h1 br{
+		display: block;
+	}
+	.banner .banner-caption p{
+		font-size:16px;
+		line-height: 27px;
+		letter-spacing: 0.2px;
+	}
+	.press-coverage-main-box{
+		padding: 60px 0 0 0;
+	}
+	.press-coverage-main-box .press-coverage-inner-box{
+		margin: 35px 0 0 0;
+	}
+	.press-coverage-main-box .press-coverage-inner-box .coverage-box{
+		border:1px solid #e6e6e6;
+		margin: 0 auto 20px;
+	}
+	.press-coverage-main-box .press-coverage-inner-box .primary-btn{
+		margin: 0 auto;
+	}
+	.press-kit-main-box{
+		padding: 0;
+	}
+	.press-kit-main-box .press-kit-desc{
+		max-width: 250px;
+		width: 100%;
+		margin: 0 auto 50px;
+		text-align: center;
+	}
+	.press-kit-main-box .press-kit-desc h2{
+		font-size: 28px;
+		text-align: center;
+		line-height: 1.3;
+		margin: 0 0 25px;
+	}
+	.press-kit-main-box .press-kit-pic .primary-btn{
+		display: block;
+		margin: 40px auto 0;
+		padding: 13px 64px;
+	}
+	.customer-articles-main-box .section-title{
+		margin: 52px auto 40px;
+	}
+	.customer-articles-main-box .section-title h2{
+		font-size: 28px;
+	}
+	/*press-page-ends*/
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
@@ -4300,7 +4482,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.peace-of-mind-inner-box .peace-box .peace-desc h5{
 		font-size: 12px;
 	}
-	
+
 }
 /*Responsive css end*/
 	/*buy-now-page-ends*/
