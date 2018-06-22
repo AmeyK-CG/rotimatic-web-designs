@@ -4073,7 +4073,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 26px;
 		line-height: 1;
 	}
-/*	.design-delight-boxes .design-delight-box .delight-box-left{
+	/*.design-delight-boxes .design-delight-box .delight-box-left{
 		max-width: 220px;
 		width: 100%;
 	}*/
@@ -4600,6 +4600,34 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 28px;
 	}
 	/*press-page-ends*/
+	/*warranty-page-start*/
+	.banner.warranty-banner{
+		background-position: 77%;
+		height: 390px;
+	}
+	.banner.warranty-banner .banner-caption{
+		max-width: 280px;
+		width: 100%;
+	}
+	.banner.warranty-banner .banner-caption h1{
+		font-size: 28px;
+		letter-spacing: -0.21px;
+	}
+	.what-it-covers-main-box{
+		padding: 45px 0;
+	}
+	.what-it-covers-main-box .cover-inner-boxes .cover-box{
+		text-align: center;
+		margin-bottom: 57px;
+		max-width: 280px;
+	}
+	.what-it-covers-main-box .cover-inner-boxes .cover-box .cover-info ul{
+		text-align: left;
+	}
+	.design-to-delight-main-box .section-title{
+		
+	}
+	/*warranty-page-end*/
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
