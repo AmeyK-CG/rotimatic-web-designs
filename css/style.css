@@ -3263,7 +3263,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .extend-warranty-inner-box .extend-box .form-group .form-control{
 	border-radius: 0;
-	box-shadow: 0;
+	box-shadow:none;
 	height: 50px;
 	max-width: 420px;
 	width: 100%;
