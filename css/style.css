@@ -4661,6 +4661,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.design-to-delight-main-box .section-title{
 		
 	}
+	.love-technology-main-box .love-technoloy-form .love-technology-box{
+		max-width: 300px;
+		width: 100%;
+		margin:0 auto;
+	}
+	
 	/*warranty-page-end*/
 }
 @media screen and (max-width: 479px){
@@ -4704,6 +4710,24 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	/*buy-now-page-start*/
 	.peace-of-mind-inner-box .peace-box .peace-desc h5{
 		font-size: 12px;
+	}
+	.love-technoloy-form .form-group .check-box{
+		line-height: 30px;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .form-control{
+		max-width: inherit;
+	}
+	.love-technoloy-form .form-group .check-box label{
+		font-size: 18px;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .check-box .checkmark{
+		width: 30px;
+		height: 30px;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .check-box input:checked + .checkmark:after{
+		width: 30px;
+		height: 30px;
+		left: 6px;
 	}
 
 }
