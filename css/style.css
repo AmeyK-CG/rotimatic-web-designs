@@ -1,4 +1,4 @@
-/*overpass-fonts*/
+F/*overpass-fonts*/
 @import url('https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,600,700,800,900');
 *{
 	margin:0;
@@ -262,11 +262,6 @@ header .navbar-toggle{
 	font-weight:200;
 }
 .banner .roti-lovers{
-	position: absolute;
-	right: 30px;
-	bottom: 30px;
-}
-.banner .roti-lovers{
 	background-color: #4975ae;
 	border-radius: 5px;
 	border:2px solid #6c8fbb;
@@ -274,6 +269,9 @@ header .navbar-toggle{
 	/*max-width: 230px;*/
 	/*width: 100%;*/
 	display: block;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
 }
 .banner .roti-lovers span{
 	display: block;
@@ -1889,6 +1887,13 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	display: table-cell;
 	width: 33.33%;
 	vertical-align: middle;
+	position: relative;
+}
+.board-members-main-box .board-member-inner-box .col-md-left .board-member-pic{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	right: 0px;
 }
 .board-members-main-box .board-member-inner-box .col-md-right{
 	display: table-cell;
@@ -2928,19 +2933,22 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
     background-repeat: no-repeat;
     background-position: right center;
 }
-.love-technology-main-box .love-technoloy-form .form-group .check-box{
+.love-technoloy-form .form-group .check-box{
 	display: block;
-	position: relative;
-	padding-left: 75px;
+	position: relative;	
 	line-height: 50px;
 	margin-bottom: 12px;
 	cursor: pointer;
+}
+.love-technoloy-form .form-group .check-box label{
+	padding-left: 75px;
+	display: inline-block;
 	font-size: 22px;
 }
-.love-technology-main-box .love-technoloy-form .form-group .check-box input{
+.love-technoloy-form .form-group .check-box input.form-control{
 	position: absolute;
 	opacity: 0;
-  	cursor: pointer;
+	cursor: pointer;
 }
 .love-technology-main-box .love-technoloy-form .form-group .check-box .checkmark{
 	position: absolute;
@@ -2948,24 +2956,35 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	left: 0;
 	height: 50px;
 	width: 50px;
-	border: 1px solid #e8e8e8;
-	display: block;
 	background-color: transparent;
+	border:1px solid #ccc;
+	display: inline-block;
 }
-.love-technology-main-box .love-technoloy-form .form-group .check-box input:checked ~.checkmark:after{
-	content: "ppppp";
+.love-technology-main-box .love-technoloy-form .form-group .check-box input .checkmark:after{
+	left: 9px;
+	top: 5px;
+	width: 50px;
+	height: 50px;
+	border:1px solid #999;
 	position: absolute;
-	display: block;	
 }
-.love-technology-main-box .love-technoloy-form .form-group .check-box input[type="checkbox"]:checked 
-.checkmark:after{
+.love-technology-main-box .love-technoloy-form .form-group .check-box input:checked + .checkmark:after{
 	display: block;
+	content: "\f00c";
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 12px;
+	top: 0;	
+	font-family: "FontAwesome";
+	color:#4975ae;
 }
 .love-technology-main-box .love-technoloy-form .love-technology-box .primary-btn{
 	float: right;
 	margin-right: 130px;
 	padding:13px 84px;
 }
+
 /*Careers-page-ends*/
 /*blog-page-start*/
 .banner.blog-banner{
@@ -3422,6 +3441,20 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.staright-box-main-box .staright-box .contant-box.staright-box-inner-right{
 		right: 80px;
 	}
+	.banner.about-banner .roti-counting{
+		max-width: 500px;
+		width: 100%;
+	}
+	.staright-box-main-box .staright-box.one,
+	.staright-box-main-box .staright-box.two,
+	.staright-box-main-box .staright-box.three,
+	.staright-box-main-box .staright-box.four{
+		height: 530px;
+	}
+	.current-openings-main-box .opening-tabs ul li a{
+		width: 135px;
+		padding: 12px 10px;
+	}
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -3493,7 +3526,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	footer .updated-rotimatic .form-group button.updated-btn{
 		top:27px;
 	}
-	.banner.reviews-banner .roti-lovers{
+	.banner .roti-lovers{
 		display: none;
 	}
 	.sort-reviews-main-box .review-inner-box {
@@ -3511,9 +3544,6 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		text-align: center;
 	}
 	.never-stop-learning .never-stop-learing-desc h2 br{
-		display: none;
-	}
-	.banner.technology-banner .roti-lovers{
 		display: none;
 	}
 	.never-stop-learning {
@@ -3673,6 +3703,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	header .navbar-collapse ul.first-nav{
 		margin-top: 30px;
+	}
+	header .navbar>.container .navbar-brand, 
+	header .navbar>.container-fluid .navbar-brand{
+		margin: 0;
 	}
 	.section-title h2{
 		font-size: 32px;
