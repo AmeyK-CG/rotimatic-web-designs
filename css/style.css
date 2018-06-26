@@ -4474,9 +4474,24 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.good-vibes-main-box .section-title h2 br,.good-vibes-main-box .section-title span br{
 		display: block;
 	}
-	.staright-box-main-box .staright-box.one,.staright-box-main-box .staright-box.two,.staright-box-main-box .staright-box.three,.staright-box-main-box .staright-box.four{
+	.good-vibes-main-box{
+		padding: 57px 0 65px;
+	}
+	.staright-box-main-box .staright-box.one{
+		height: 440px;
+		background-position: 0;
+	}
+	.staright-box-main-box .staright-box.two{
+		height: 440px;
+		background-position: 92%;
+	}
+	.staright-box-main-box .staright-box.three{
+		height: 450px;
+		background-position: 0;
+	}
+	.staright-box-main-box .staright-box.four{
 		height: 430px;
-		background-position: center;
+		background-position: 33% 0;
 	}
 	.staright-box-main-box .staright-box .staright-overlay-right,.staright-box-main-box .staright-box .staright-overlay-left{
 		background:rgba(0,0,0,0.5);
@@ -4666,7 +4681,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width: 100%;
 		margin:0 auto;
 	}
-	
+	.current-openings-main-box .opening-tabs ul{
+		text-align: center;
+	}
 	/*warranty-page-end*/
 }
 @media screen and (max-width: 479px){
@@ -4708,8 +4725,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 24px;
 	}
 	/*buy-now-page-start*/
+
 	.peace-of-mind-inner-box .peace-box .peace-desc h5{
 		font-size: 12px;
+	}
+	.love-technology-main-box{
+		padding: 45px 0;
 	}
 	.love-technoloy-form .form-group .check-box{
 		line-height: 30px;
