@@ -37,6 +37,9 @@ a{
 a:hover{
 	text-decoration: none;
 }
+button{
+	outline: none;
+}
 .no-padding{
 	padding: 0;
 }
@@ -62,6 +65,7 @@ svg:hover{
 	-moz-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
+	outline: none;
 }
 .primary-btn:hover{
 	background-color: #ff7f44;
@@ -406,6 +410,7 @@ header .navbar-toggle{
 	text-align: center;
 }
 .taste-endless-main-box .roti-slider button{
+	outline: none;
 	background-color: transparent;
 	border:none;
 	position: absolute;
@@ -418,6 +423,10 @@ header .navbar-toggle{
 	font-size: 48px;
 	color: transparent;
 	font-weight: bold;
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0;
 }
 .taste-endless-main-box .roti-slider button.slick-next{
 	right:0px;
@@ -3067,6 +3076,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	border:1px solid #e8e8e8;
 	margin:0 0 30px;
 }
+.customer-articles-main-box .customer-article-inner-box >.row .col-md-4.col-sm-6:nth-child(4){
+	clear: left;
+}
 .customer-articles-main-box .customer-article-inner-box .customer-article-box .article-desc{
 	padding: 40px 35px;
 }
@@ -3455,6 +3467,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width: 135px;
 		padding: 12px 10px;
 	}
+	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
+		font-size: 50px;
+	}
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -3465,11 +3480,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		column-count: 2; 
 		column-gap: 15px;
 	}
-	.items{
+/*	.items{
 		display: inline-block; 
 		margin: 0 0 30px; 
 		width: 100%;
-	}
+	}*/
 	.section-title h2{
 		font-size: 30px;
 	}
@@ -3628,6 +3643,15 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.why-zimplistic-main-box{
 		padding: 90px 0 45px;
 	}
+	.customer-articles-main-box .customer-article-inner-box .row .col-md-4.col-sm-6:nth-child(3){
+		clear: both;
+	}
+	.customer-articles-main-box .customer-article-inner-box >.row .col-md-4.col-sm-6:nth-child(4){
+		clear: right;
+	}
+	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
+		font-size: 40px;
+	}
 }
 @media screen and (max-width: 767px){
 	.display-direction{
@@ -3642,10 +3666,16 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		column-count: 1; 
 		column-gap: 15px;
 	}
-	.items{
+	/*.items{
 		display: inline-block; 
 		margin: 0 0 30px; 
 		width: 100%;
+	}*/
+	.items{
+		display: block; 
+		margin: 0 auto 30px; 
+		width: 100%;
+		max-width: 400px;
 	}
 	header{
 		padding-bottom: 0;
@@ -3815,10 +3845,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width: 100%;
 	}
 	.taste-endless-main-box .roti-slider button.slick-next{
-		right: -30px;
+		right: 0px;
 	}
 	.taste-endless-main-box .roti-slider button.slick-prev{
-		left: -80px;
+		left: 0px;
 	}
 	.taste-endless-main-box .roti-unlimited{
 		margin: 30px 0 0 0;
@@ -4284,9 +4314,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 35px;
 	}
 	.peace-of-mind-inner-box .peace-box{
-		display:table;
+		display:block;
 		width: 100%;
-		margin-bottom: 30px;
+		margin:0 auto 30px;
+		max-width: 350px;
 	}
 	.peace-of-mind-inner-box .peace-box .peace-icon{
 		display: table-cell;
@@ -4299,6 +4330,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.peace-of-mind-inner-box .peace-box .peace-desc{
 		display: table-cell;
 		padding-left: 10px;
+		width: 300px;
+		max-width: 100%;
 	}
 	.peace-of-mind-inner-box .peace-box .peace-desc h5{
 		font-size: 16px;
@@ -4394,14 +4427,19 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		border:1px solid #e8e8e8;
 
 	}
-	.rotimatic-basic-featurs-main-box{
+	/*.rotimatic-basic-featurs-main-box{
 		padding: 177px 0 0px;
+	}*/
+	.rotimatic-basic-featurs-main-box{
+		padding: 100px 0 0px;
 	}
 	.rotimatic-basic-featurs-main-box .basic-features-inner-box{
 		margin-bottom: 0;
 	}
 	.rotimatic-basic-featurs-main-box .basic-features-inner-box .media{
-		margin-bottom: 40px;
+		margin: 0 auto 40px;
+		max-width: 300px;
+		width: 100%;
 	}
 	.price-plan-main-box .roti-lover-main-box .roti-lover{
 		margin:0 auto 20px;
@@ -4685,6 +4723,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		text-align: center;
 	}
 	/*warranty-page-end*/
+	.price-plan-main-box{
+		padding: 40px 0 0 0;
+	}
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
