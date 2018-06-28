@@ -1323,6 +1323,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .delight-customer-main-box ul.slick-dots{
 	text-align: center;
+	padding-left: 0;
 }
 .delight-customer-main-box ul.slick-dots li{
 	display: inline-block;
@@ -1335,6 +1336,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	text-indent: -99em;
 	width: 10px;
 	height: 10px;
+	padding: 0;
 	border-radius: 100%;
 }
 .delight-customer-main-box ul.slick-dots li.slick-active button{
@@ -1377,8 +1379,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	padding: 13px 60px;
 }
 .sort-reviews-main-box{
-	margin:45px 0 0 0;
-	padding-bottom: 40px;
+	/*margin:45px 0 0 0;
+	padding-bottom: 40px;*/
+	padding: 45px 0;
 }
 .sort-reviews-main-box .form-group label{
 	font-size: 18px;
@@ -3274,6 +3277,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .what-it-covers-main-box .cover-inner-boxes .cover-box .cover-info ul{
 	margin:35px 0 0 0;
+	padding: 0;
 }
 .what-it-covers-main-box .cover-inner-boxes .cover-box .cover-info ul li{
 	font-size: 16px;
@@ -3488,6 +3492,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.why-zimplistic-main-box .why-zimpli-inner-box .col-md-4.col-sm-6:nth-child(4){
 		clear: left;
 	}
+	.ingredient-main-box .img-box .ingredient-info .ingrd-name h6{
+		font-size: 24px;
+		line-height: 30px;
+	}
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -3687,6 +3695,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.why-zimplistic-main-box .why-zimpli-inner-box .col-md-4.col-sm-6:nth-child(4){
 		clear: right;
 	}
+	.sort-reviews-main-box 
 }
 @media screen and (max-width: 767px){
 	.display-direction{
@@ -3707,7 +3716,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width: 100%;
 	}*/
 	.items{
-		display: block; 
+		display: block !important; 
 		margin: 0 auto 30px; 
 		width: 100%;
 		max-width: 400px;
@@ -4209,14 +4218,24 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.delight-customer-main-box .reviwes-btns button:last-child{
 		margin-bottom: 0;
 	}
+	.sort-reviews-main-box .form-group{
+		margin: 0 auto 15px;
+		max-width: 300px;
+		width: 100%;
+	}
 	.sort-reviews-main-box .review-inner-box{
 		padding: 40px 20px;
 		border-radius: 20px;
 		border:1px solid #e8e8e8;
-		margin-bottom: 10px;
+		margin: 0 auto 10px;
+		max-width: 400px;
+		width: 100%;
 	}
 	.sort-reviews-main-box .review-boxes {
 	    margin: 39px 0 0 0;
+	}
+	.sort-reviews-main-box .load-reviews{
+		margin: 20px auto 0;
 	}
 	/*Review page ends*/
 	/*about-page-start*/
@@ -4785,6 +4804,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.why-zimplistic-main-box .why-zimpli-inner-box .why-box h5{
 		margin: 0 0 26px 0;
 	}
+	
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
