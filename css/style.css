@@ -393,8 +393,7 @@ header .navbar-toggle{
 /*try-it-now-img-end*/
 /*taste-endless-main-box-start*/
 .taste-endless-main-box{
-	margin:138px 0 0 0;
-	padding:0 0 90px 0;
+	padding:138px 0 90px 0;
 }
 .taste-endless-main-box .roti-slider{
 	max-width: 1000px;
@@ -853,6 +852,9 @@ header .navbar-toggle{
 }
 .customer-box .customer-feedback-box .feedback-content{
 	margin:35px 0 0 0;
+	/*white-space: nowrap; 
+   	overflow: hidden;
+   	text-overflow: ellipsis;*/
 }
 .customer-box .customer-feedback-box .feedback-content p{
 	font-size: 16px;
@@ -1457,6 +1459,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 /*Reviews-page-end*/
 /*Recipes-page-start*/
+.banner.recipes-banner .recipe-banner-img{
+	text-align: center;
+}
 .banner.recipes-banner .roti-lovers{
 	bottom: 200px;
 }
@@ -2460,13 +2465,17 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: 0.33px;
 	font-weight: 200;
 }
+/*.roti-now-pay-main-box .roti-now-pay-inner-box .roti-pay-box{
+	display: table;
+	width: 100%;
+}*/
 .roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box{
 	border:1px solid #fff;
 	padding: 27px 42px;
 	text-align: center;
 	color: #fff;
 	height: 180px;
-	vertical-align: middle;
+	box-sizing: content-box;
 }
 .roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box span{
 	font-size: 18px;
@@ -2861,6 +2870,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	letter-spacing: 0.12px;
 	color: #6c6c6c;
 }
+.info-inner-box .opening-box .opening-top-box .quote{
+	display: inline-block;
+}
 .info-inner-box .opening-box .opening-box-desc{
 	margin:28px 0 40px 0;
 }
@@ -2876,6 +2888,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	line-height: 33px;
 	color: #6C6C6C;
 	font-weight: 200;
+}
+.info-inner-box .opening-box .opening-bottom-box .learn-more{
+	display: inline-block;
 }
 .info-inner-box .opening-box .opening-bottom-box .share-info{
 	float: right;
@@ -3470,6 +3485,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
 		font-size: 50px;
 	}
+	.why-zimplistic-main-box .why-zimpli-inner-box .col-md-4.col-sm-6:nth-child(4){
+		clear: left;
+	}
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -3652,6 +3670,23 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.banner.blog-banner .carousel.slide .carousel-inner .item .carousel-caption h1{
 		font-size: 40px;
 	}
+	.love-technoloy-form .form-group .check-box label{
+		padding-left: 55px;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .check-box .checkmark{
+		width: 40px;
+		height: 40px;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .check-box input:checked + .checkmark:after{
+		top: -5px;
+		left: 10px;
+	}
+	.love-technoloy-form .form-group .check-box label{
+		font-size: 18px;
+	}
+	.why-zimplistic-main-box .why-zimpli-inner-box .col-md-4.col-sm-6:nth-child(4){
+		clear: right;
+	}
 }
 @media screen and (max-width: 767px){
 	.display-direction{
@@ -3832,8 +3867,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		margin-top: 75px;
 	}*/
 	.taste-endless-main-box{
-		margin: 50px 0 0 0;
-	    padding: 0 0 40px 0
+	    padding: 50px 0 40px 0
 	}
 	.taste-endless-main-box .roti-slider{
 		max-width: 300px;
@@ -4308,7 +4342,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	/*recipes-page-end*/
 	/*contact-us-page-start*/
 	.peace-of-mind-main-box{
-		padding-bottom: 0;
+		padding: 35px 0 0 0;
 	}
 	.peace-of-mind-main-box .peace-of-mind-inner-box h1{
 		font-size: 35px;
@@ -4471,9 +4505,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	}
 	.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box{
 		height: auto;
+		box-sizing: border-box;
 	}
 	.specification-main-box .specification-inner-box .specification-box{
-		margin-bottom: 54px;
+		/*margin-bottom: 54px;*/
+		margin-bottom: 30px;
 	}
 	.take-our-word-box .take-our-word-inner-box .section-title h2 br{
 		display:block;
@@ -4726,6 +4762,29 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.price-plan-main-box{
 		padding: 40px 0 0 0;
 	}
+	.in-thebox-main{
+		padding: 35px 0;
+	}
+	.specification-main-box {
+	    padding: 35px 0 5px;
+	}
+	.specification-main-box .section-title {
+	    margin-bottom: 36px;
+	}
+	.delighted-customers-box button.primary-btn-rev{
+		margin: 15px auto 0;
+	}
+	.faq-inner-box{
+		margin: 35px auto;
+	}
+	.love-technology-main-box .love-technoloy-form .form-group .check-box input:checked + .checkmark:after{
+		top: -5px;
+		font-size: 14px;
+		left: 10px;
+	}
+	.why-zimplistic-main-box .why-zimpli-inner-box .why-box h5{
+		margin: 0 0 26px 0;
+	}
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
@@ -4793,8 +4852,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width: 30px;
 		height: 30px;
 		left: 6px;
+		top: 0;
 	}
-
 }
 /*Responsive css end*/
 	/*buy-now-page-ends*/
