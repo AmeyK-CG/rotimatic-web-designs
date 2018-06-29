@@ -1,4 +1,4 @@
-F/*overpass-fonts*/
+/*overpass-fonts*/
 @import url('https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,600,700,800,900');
 *{
 	margin:0;
@@ -3332,6 +3332,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .extend-warranty-inner-box .extend-box .buying-opt-box ul{
 	margin:22px 0 37px 0;
+	text-align: center;
 }
 .extend-warranty-inner-box .extend-box .buying-opt-box ul li .extn-box{
 	border:1px solid #e8e8e8;
@@ -3496,6 +3497,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		font-size: 24px;
 		line-height: 30px;
 	}
+	.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box{
+		height: 120px;
+	}
+
 }
 @media screen and (max-width: 991px){
 	.masonry{
@@ -3603,10 +3608,10 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		margin-left: 30px;
 	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-next{
-		right: -20px;
+		right: -25px;
 	}
 	.design-to-delight-main-box .design-delight-boxes button.slick-prev{
-		left: -20px;
+		left: -25px;
 	}
 	/*about-page-start*/
 
@@ -3695,7 +3700,27 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.why-zimplistic-main-box .why-zimpli-inner-box .col-md-4.col-sm-6:nth-child(4){
 		clear: right;
 	}
-	.sort-reviews-main-box 
+	.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box{
+		height: 180px;
+	}
+	.what-it-covers-main-box{
+		padding: 45px 0;
+	}
+	.extend-warranty-main-box{
+		padding: 55px 0 0px;
+	}
+	.extend-warranty-inner-box .extend-box .buying-opt-box ul li{
+		margin-bottom: 30px;
+	}
+	.extend-warranty-inner-box .extend-box .buying-opt-box ul li:last-child{
+		margin-bottom: 0;
+	}
+	.extend-warranty-inner-box .extend-box .buying-opt-box{
+		text-align: center;
+	}
+	.extend-warranty-inner-box .extend-box .form-group {
+	    margin-bottom: 35px;
+	}
 }
 @media screen and (max-width: 767px){
 	.display-direction{
@@ -4188,7 +4213,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		margin: 0;
 	}
 	.faq-main-box{
-		padding: 100px 0 0 0;
+		/*padding: 100px 0 0 0;*/
+		padding: 50px 0 0 0;
 	}
 	/*Technoloy-responsive-ends*/
 	/*Review page start*/
@@ -4525,6 +4551,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.roti-now-pay-main-box .roti-now-pay-inner-box .rotipay-box{
 		height: auto;
 		box-sizing: border-box;
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto 30px;
+	}
+	.roti-now-pay-main-box .roti-now-pay-inner-box [class*=col]:last-child .rotipay-box{
+		margin-bottom: 0;
 	}
 	.specification-main-box .specification-inner-box .specification-box{
 		/*margin-bottom: 54px;*/
@@ -4534,7 +4566,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		display:block;
 	}
 	.roti-now-pay-main-box{
-		padding: 60px 0;
+		/*padding: 60px 0;*/
+		padding: 45px 0;
 	}
 	/*buy-now-page-ends*/
 	/*Careers-page-start*/
@@ -4804,7 +4837,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.why-zimplistic-main-box .why-zimpli-inner-box .why-box h5{
 		margin: 0 0 26px 0;
 	}
-	
+	.extend-warranty-main-box .extend-warranty-inner-box .extend-box{
+		max-width: 400px;
+		width:100%;
+		margin: 0 auto 40px;
+	}
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
