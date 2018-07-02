@@ -666,7 +666,7 @@ header .navbar-toggle{
 }
 .light-on-your-body .how-much-save-box{
 	border:1px solid #fff;
-	margin:35px 0 0 0;
+	margin:135px 0 0 0;
 	padding: 27px 30px;
 	max-width: 430px;
 	width: 100%;
@@ -1055,7 +1055,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .never-stop-learning .never-stop-learing-desc h2{
 	margin-top: 0;
 	font-size:40px;
-	font-weight: lighter;
+	font-weight: 200;
 	margin-bottom: 23px;
 	color: #222;
 }
@@ -1117,7 +1117,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	font-size: 40px;
 	letter-spacing: 0.3px;
 	color: #222;
-	font-weight: lighter;
+	font-weight: 200;
 	margin-bottom: 40px;
 }
 .robot-with-human-touch .human-touch-inner-box p{
@@ -1283,7 +1283,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .faq-inner-box .panel-group .panel.panel-default .panel-body{
 	font-size: 16px;
 	color: #6C6C6C;
-	font-weight: lighter;
+	font-weight: 200;
 	line-height: 27px;
 	letter-spacing: 0.2px;
 }
