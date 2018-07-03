@@ -1259,9 +1259,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a .icons{
 	float: right;
-	height: 20px;
-	vertical-align: middle;
-	padding: 10px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 10px 5px;
+    display: block;
+    width: 5%;
+
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a.collapsed 
 .icons{
@@ -1281,11 +1284,16 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a{
 	color: #FF7D42;
-	font-size: 22px;
-	line-height: 30px;
-	letter-spacing: -0.5px;
-	font-weight: 200;
-	text-decoration: none;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    font-weight: 200;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
 }
 .faq-inner-box .panel-group .panel.panel-default .panel-body{
 	font-size: 16px;
