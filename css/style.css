@@ -1238,9 +1238,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .faq-inner-box .panel-group .panel{
 	border-radius: 0;
+	border-bottom: 1px solid #ddd;
 }
 .faq-inner-box .panel-group .panel-heading{
-	border-bottom: 1px solid #ddd;
 	box-shadow: none;
 	padding-right: 0;
 	vertical-align: middle;
