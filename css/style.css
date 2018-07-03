@@ -118,8 +118,7 @@ svg:hover{
 	width: 100%;
 }
 .banner .banner-overlay{
-	/*background-color: rgba(0,0,0,0.35);*/
-	background-color: rgba(0,0,0,0.10);
+	background-color: rgba(0,0,0,0.35);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -1431,10 +1430,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	padding: 13px 63px;
 }
 .sort-reviews-main-box .review-boxes{
-	margin:79px 0 0 0;
+	margin:79px auto 0;
 }
 .sort-reviews-main-box .review-inner-box{
 	margin-bottom: 109px;
+	padding: 42px;
 }
 .sort-reviews-main-box .review-inner-box .media {
 	margin-bottom: 17px;
@@ -1443,7 +1443,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	border-radius: 100%;
 	width: 40px;
 	height: 40px;
-	display: inline-block;
+	/*display: inline-block;*/
+	display: none;
 }
 .sort-reviews-main-box .review-inner-box .media .media-body{
 	max-width: 100%;
@@ -1732,6 +1733,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .also-like-main-box{
 	margin: 107px 0 0 0;
+}
+.also-like-main-box .section-title{
+	margin-bottom: 60px;
 }
 .also-like-main-box .also-like-box{
 	position: relative;
@@ -3567,7 +3571,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		column-count: 2; 
 		column-gap: 15px;
 	}
-/*	.items{
+	/*.items{
 		display: inline-block; 
 		margin: 0 0 30px; 
 		width: 100%;
@@ -3704,9 +3708,14 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		display: block;
 		width: 100%;
 	}
+	.board-members-main-box .board-member-inner-box .col-md-left .board-member-pic{
+		position: static;
+	}
 	.board-members-main-box .board-member-inner-box .col-md-right{
 		display: block;
 		width: 100%;
+		max-width: 378px;
+		margin:0 auto;
 	}
 	.board-members-main-box .board-member-inner-box .board-member-pic{ 
 		text-align: center;
@@ -4693,6 +4702,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.client-testimonials-main-box{
 		padding: 80px 0;
 	}
+	.why-zimplistic-main-box {
+	    padding: 45px 0 23px;
+	}
 	.client-testimonials-main-box .testimonial-inner-box{
 		padding:40px 22px;
 	}
@@ -4768,6 +4780,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width: 100%;
 		margin:0 auto 30px;
 	}
+	.customer-articles-main-box .customer-article-inner-box .customer-article-box .article-desc {
+	    padding: 20px 17px;
+	}
 	/*blog-page-ends*/
 	/*press-page-start*/
 	.banner.press-banner{
@@ -4800,6 +4815,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.press-coverage-main-box .press-coverage-inner-box .coverage-box{
 		border:1px solid #e6e6e6;
 		margin: 0 auto 20px;
+	}
+	.press-coverage-main-box .press-coverage-inner-box .coverage-box .press-pic img {
+	    height: 20px;
 	}
 	.press-coverage-main-box .press-coverage-inner-box .primary-btn{
 		margin: 0 auto;
@@ -4847,8 +4865,12 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.what-it-covers-main-box{
 		padding: 45px 0;
 	}
+	.what-it-covers-main-box .cover-inner-boxes {
+	    margin: 35px 0 0 0;
+	}
 	.what-it-covers-main-box .cover-inner-boxes .cover-box{
 		text-align: center;
+		padding: 0 15px;
 		margin-bottom: 57px;
 		max-width: 280px;
 	}
@@ -4898,6 +4920,57 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		width:100%;
 		margin: 0 auto 40px;
 	}
+	/*individual-recipes-page-start*/
+	.banner.individual-recipe-banner{
+		height: 390px;
+		background-position: center;
+	}
+	.recipe-preparation-process-main ul {
+	    margin: 0 auto;
+	    max-width: 500px;
+	    width: 100%;
+	}
+	.recipe-preparation-process-main ul.process-list li{
+		width: 49%;
+		margin-right: 0;
+		padding: 0;
+	}
+	.recipe-preparation-process-main .share-recipe{
+		text-align: left;
+		margin:30px auto 0;
+		max-width: 500px;
+		width: 100%;
+	}
+	.recipe-preparation-process-main .preparation-process-desc{
+	    margin: 75px auto 0;
+	    max-width: 500px;
+	    width: 100%;
+	}
+	.recipe-preparation-process-main .preparation-process-desc .process-desc-inner-box{
+		margin: 0 0 30px;
+	}
+	.recipe-preparation-process-main .container{
+		border-bottom: none;
+	}
+	.steps-main-box .steps-box{
+		margin:0 0 60px 0;
+	}
+	.also-like-main-box {
+	    margin: 53px 0 0 0;
+	}
+	.also-like-main-box .section-title {
+	    margin-bottom: 30px;
+	}
+	.also-like-main-box .also-like-box {
+	    margin-bottom: 20px;
+	}
+	.also-like-main-box button.primary-btn {
+	    margin: 20px auto 40px;
+	}
+	/*individual-recipes-page-ends*/
+	.buy-accordian-box .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body p a{
+		width: 240px;
+	}
 }
 @media screen and (max-width: 479px){
 	.banner.home-banner{
@@ -4935,7 +5008,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 		max-width: 270px;
 	}
 	.faq-page-main-box .faq-inner-box .faq-title h3{
+		line-height: 30px;
 		font-size: 24px;
+	}
+	.faq-page-main-box .more-questions h3{
+		font-size: 28px;
 	}
 	/*buy-now-page-start*/
 
