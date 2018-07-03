@@ -117,6 +117,17 @@ svg:hover{
 	margin: 0 0 30px; 
 	width: 100%;
 }
+.banner .banner-overlay{
+	/*background-color: rgba(0,0,0,0.35);*/
+	background-color: rgba(0,0,0,0.10);
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
 
 /*Header start*/
 header{
@@ -222,23 +233,17 @@ header .navbar-toggle{
 	line-height: 27px;
 }
 .banner.home-banner{
-	background-image: url(../images/1f717e91195b34d7ab21cac06b4d6915d1a71ac8.png);
+	/*background-image: url(../images/1f717e91195b34d7ab21cac06b4d6915d1a71ac8.png);
 	background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     height: 900px;
-    background-position:45% 10%;
+    /*background-position:45% 10%;*/
 }
-.banner .banner-overlay{
-	/*background-color: rgba(0,0,0,0.35);*/
-	background-color: rgba(0,0,0,0.10);
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+.banner.home-banner video{
 	height: 100%;
+	width: 100%;
 }
+
 .banner.home-banner .banner-caption{
 	max-width: 631px;
 	width: 100%;
@@ -293,6 +298,9 @@ header .navbar-toggle{
 	line-height: 10px;
 }
 .banner .roti-lovers span svg{
+	margin-right: 5px;
+}
+.banner .roti-lovers span strong{
 	margin-right: 5px;
 }
 .banner .roti-lovers span:last-child{
@@ -436,7 +444,7 @@ header .navbar-toggle{
 	padding: 0;
 }
 .taste-endless-main-box .roti-slider button.slick-next{
-	right:0px;
+	right:-30px;
 }
 .taste-endless-main-box .roti-slider button.slick-next:before{
 	content: "\f105";
@@ -445,7 +453,7 @@ header .navbar-toggle{
 	color: #e7e7e7;
 }
 .taste-endless-main-box .roti-slider button.slick-prev{
-	left:0;
+	left:-30px;
 }
 .taste-endless-main-box .roti-slider button.slick-prev:before{
 	content: "\f104";
@@ -458,7 +466,7 @@ header .navbar-toggle{
 	font-weight: 200;
 	/*font-size: 26px;*/
 	font-size: 36px;
-	margin: 0;
+	margin: 10px 0 0 0;
 	letter-spacing: 0.43px;
 }
 .taste-endless-main-box .roti-slider .slider-img span{
@@ -1509,6 +1517,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box{
 	margin-bottom: 40px;
 }
+.fresh-ingrediants-masonry-box .ingredient-main-box .ingre-inner-box a{
+	display: block;
+}
 .fresh-ingrediants-masonry-box .ingredient-right-box .ingre-inner-box{
 	margin-bottom: 30px;
 }
@@ -2067,6 +2078,11 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 .buy-accordian-box .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body p a{
 	color: #fff;
 	text-decoration: none;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 300px;
+	display: inline-block;
 }
 .buy-accordian-box .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body p a i{
 	display: inline-block;
@@ -2577,6 +2593,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	background-image: url(../images/6ac519fec099e694fe7d2033f3cfa8208a788656.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #e8e8e8;
 }
 .in-thebox-main .inthebox-inner-box .inthebox-right .inthebox-right-bottom .inthebox-right-bottom-center{
 	background-image: url(../images/b5f66eedfa65cad4806e538847c029517bc610b8.png);
