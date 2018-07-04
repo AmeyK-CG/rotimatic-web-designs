@@ -1251,7 +1251,7 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .faq-inner-box .panel-group .panel-heading+.panel-collapse>.list-group, 
 .faq-inner-box .panel-group .panel-heading+.panel-collapse>.panel-body{
-	border-bottom: 1px solid #ddd;
+/*	border-bottom: 1px solid #ddd;*/
 	border-top: none;
 }
 .faq-inner-box .panel.panel-default .panel-heading .panel-title a.collapsed{
