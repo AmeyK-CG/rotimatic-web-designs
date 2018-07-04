@@ -233,10 +233,11 @@ header .navbar-toggle{
 	line-height: 27px;
 }
 .roti-counting .roti-counter-box ul{
-	max-width: 422px;
+	max-width: 425px;
 	width: 100%;
 	background-color: #fff;
-	margin:0 auto;
+	margin:10px auto;
+	border: 1px solid #e8e8e8;
 }
 .roti-counting .roti-counter-box ul li{
 	width: 50px;
@@ -246,6 +247,9 @@ header .navbar-toggle{
 	line-height: 75px;
 	color: #222;
 	border-right: 1px solid #e8e8e8;
+}
+.roti-counting .roti-counter-box ul li:last-child{
+	border-right: 0;
 }
 .banner.home-banner{
 	background-image: url(../images/1f717e91195b34d7ab21cac06b4d6915d1a71ac8.png);
