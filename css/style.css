@@ -232,12 +232,27 @@ header .navbar-toggle{
 	letter-spacing: 0.12px;
 	line-height: 27px;
 }
+.roti-counting .roti-counter-box ul{
+	max-width: 422px;
+	width: 100%;
+	background-color: #fff;
+	margin:0 auto;
+}
+.roti-counting .roti-counter-box ul li{
+	width: 50px;
+	height: 65px;
+	text-align: center;
+	font-size: 36px;
+	line-height: 75px;
+	color: #222;
+	border-right: 1px solid #e8e8e8;
+}
 .banner.home-banner{
-	/*background-image: url(../images/1f717e91195b34d7ab21cac06b4d6915d1a71ac8.png);
+	background-image: url(../images/1f717e91195b34d7ab21cac06b4d6915d1a71ac8.png);
 	background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     height: 900px;
-    /*background-position:45% 10%;*/
+    background-position:45% 10%;
 }
 .banner.home-banner video{
 	height: 100%;
@@ -2292,7 +2307,8 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	background-position: 25% 0%;
 }
 .banner.buy-now-banner .banner-caption-main{
-	max-width: 384px;
+	/*max-width: 384px;*/
+	max-width: 422px;
 	width: 100%;
 	position: absolute;
 	left: 250px;
@@ -2300,7 +2316,9 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 }
 .banner.buy-now-banner .banner-caption-main .banner-caption{
 	position: static;
-	margin-top: 55px;
+	margin: 55px auto 0;
+	width: 100%;
+	max-width: 384px;
 }
 .banner.buy-now-banner .banner-caption-main .roti-counting{
 	margin:150px auto 0;
@@ -3936,6 +3954,16 @@ footer .footer-navigation ul.list-unstyled li ul li a:hover{
 	.rotimatic-paid-box .rotimatic-paid .creative-caption{
 		display: block;
 		padding: 0;
+	}
+	.roti-counting .roti-counter-box ul {
+	    max-width: 248px;
+	    border:1px solid #e8e8e8;
+	}
+	.roti-counting .roti-counter-box ul li {
+	    width: 28px;
+	    height: 40px;
+	    font-size: 24px;
+	    line-height: 45px;
 	}
 	.banner.home-banner .roti-counting{
 		position: absolute;
